@@ -1075,6 +1075,9 @@ li a {
   width: 100%;
   height: auto;
   display: flex;
+  background-color: #079adb;
+  background-image: url("../images/Frame 4 1.png");
+  background-repeat: no-repeat;
 }
 
 .forget-password {
