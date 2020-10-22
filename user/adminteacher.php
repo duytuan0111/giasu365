@@ -38,198 +38,13 @@
 </head>
 
 <body>
-    <header>
-        <div class="row" id="header">
-            <div class="col-md-3 home">
-                <a href="#"><img src="../asset/images/return 1.png" alt=""> Quay lại Timviec365.com</a>
-            </div>
-            <div class="row menu-tablet">
-                <div class="header-menu col-sm-4 col-xs-4">
-                    <a class="btn" data-toggle="modal" href='#modal-id'><img src="../asset/images/menu.png" alt=""></a>
-                </div>
-                <div class="header-img col-sm-4 col-xs-4">
-                    <img src="../asset/images/Group.png" alt="">
-                </div>
-                <div class="header-search col-sm-4 col-xs-4">
-                    
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="modal fade" id="modal-id">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <nav class="nav-modal">
-                                <div class="nav-modal1">
-                                    <div class="nav-modal1-v1">
-                                        <img src="../asset/images/Group 2728.png" alt="">
-                                    </div>
-                                    <div class="nav-modal2">
-                                        <div class="nav-modal2-v1">
-                                            <p>Nguyễn Hồng Nhung</p>
-                                        </div>
-                                        <div class="nav-modal2-v2">
-                                            <div class="nav-modal2-v2-1">
-                                                <img src="../asset/images/reload.png" alt="">
-                                            </div>
-                                            <div class="nav-modal2-v2-2">
-                                                <a href="#">Làm mới hồ sơ</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="nav-modal3">
-                                        <div class="nav-modal3-v1">
-                                            <a href="#">Quản lý chung</a>
-                                        </div>
-                                        <div class="nav-modal3-v2">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                                    data-target="#submenu" aria-controls="submenu">Quản lý lớp dạy <span
-                                                        class="badge badge-success">4</span> <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
-                                                <div id="submenu" class="collapse submenu" style="">
-                                                    <ul class="nav flex-column">
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Phụ huynh mời dạy</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Lớp đã nhận dạy</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Lớp đã đề nghị dạy</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Lớp đã lưu</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </div>
-                                        <div class="nav-modal3-v3">
-                                            <a href="#">Kinh nghiệm giảng dạy</a>
-                                        </div>
-                                        <div class="nav-modal3-v4">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                                    data-target="#submenu-2" aria-controls="submenu-2">Thông tin gia sư <span
-                                                        class="badge badge-success">3</span> <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
-                                                <div id="submenu-2" class="collapse submenu" style="">
-                                                    <ul class="nav flex-column">
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Cập nhật thông tin</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Đổi mật khẩu</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">Đăng xuất</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </div>
-                                    </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-9 menu">
-                <ul class="ul-menu">
-                    <li><img src="../asset/images/Group.png" alt=""></li>
-                    <li><a href="#">Dành cho phụ huynh</a></li>
-                    <li><a href="#">Dành cho gia sư</a></li>
-                    <li><a href="#">Blog gia sư</a></li>
-                    <li><a href="#" class="btn-register--blue">Đăng ký làm gia sư</a></li>
-                    <li><img src="../asset/images/Group 2728.png" alt="" class="menu-img"></li>
-                </ul>
-            </div>
-        </div>
-        
-        
-        
-    </header>
+    <?php
+        include_once "../inc_header.php";
+    ?>
     <div id="ad-teacher">
-        <div class="nav-teacher">
-            <nav class="nav-teacher1" id="nav-teacher1">
-                <div class="nav-teacher1-v1">
-                    <img src="../asset/images/Group 2728.png" alt="">
-                </div>
-                <div class="nav-teacher1-v2">
-                    <p>Nguyễn Hồng Nhung</p>
-                </div>
-                <div class="nav-teacher2">
-                    <div class="nav-teacher2-v1">
-                        <img src="../asset/images/reload.png" alt="">
-                    </div>
-                    <div class="nav-teacher2-v2">
-                        <a href="#">Làm mới hồ sơ</a>
-                    </div>
-                </div>
-                <div class="nav-teacher3">
-                    <div class="nav-teacher3-v1">
-                        <a href="#" class="a"><i class="fa fa-cog" aria-hidden="true"></i></a>
-                        <a href="#">Quản lý chung</a>
-                    </div>
-                    <div class="nav-teacher3-v2">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                data-target="#submenu" aria-controls="submenu" class="a"><i
-                                    class='fas fa-book-open'></i></a>
-                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                data-target="#submenu" aria-controls="submenu">Quản lý lớp dạy <span
-                                    class="badge badge-success">4</span> <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
-                            <div id="submenu" class="collapse submenu" style="">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Phụ huynh mời dạy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Lớp đã nhận dạy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Lớp đã đề nghị dạy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Lớp đã lưu</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </div>
-                    <div class="nav-teacher3-v3">
-                        <a href="#" class="a"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
-                        <a href="#">Kinh nghiệm giảng dạy</a>
-                    </div>
-                    <div class="nav-teacher3-v4">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-user-circle"
-                                    aria-hidden="true"></i></a>
-                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                                data-target="#submenu-2" aria-controls="submenu-2">Thông tin gia sư <span
-                                    class="badge badge-success">3</span> <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
-                            <div id="submenu-2" class="collapse submenu" style="">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Cập nhật thông tin</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Đổi mật khẩu</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Đăng xuất</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <?php
+            include_once "../inc_nav-bar.php";        
+        ?>
         <div class="content-teacher">
             <div class="content-teacher1 row">
                 <div class="content-teacher1-v1 col-sm-4 cod-xs-4">
@@ -348,7 +163,9 @@
                                 <button class="click" onclick="myFunction1()">
                                     <a href="#"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
                                 </button>
-                                
+                                <div class="content-teacher2-v4-2s">
+                                    <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
+                                </div>
                             </div>
                             <div class="content-teacher2-v4-1b">
                                 <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
@@ -468,6 +285,9 @@
             </div>
         </div>
     </div>
+    <?php 
+        include_once "../inc_footer.php";
+    ?>
     <script>
         $('#select2').select2({
             tags: true,

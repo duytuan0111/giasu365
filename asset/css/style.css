@@ -2583,6 +2583,7 @@ li a {
   background: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
+  padding-bottom: 150px;
 }
 .nav-teacher1 {
   background-image: url("../images/Rectangle 640.png");
@@ -2657,6 +2658,9 @@ li a {
   margin-left: 21px;
   margin-top: 42px;
 }
+.nav-teacher3 a:hover{
+  color:  #F8971C !important;
+}
 .nav-teacher3-v1 {
   width: 100%;
   height: auto;
@@ -2670,14 +2674,14 @@ li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #f8971c;
+  color: #575e66;
 }
 .nav-teacher3-v2 {
   width: 100%;
   height: auto;
   margin-top: 21px;
 }
-.nav-link {
+.nav-custom {
   margin-top: auto !important;
   margin-left: 0px !important;
   margin-right: 5px;
@@ -2864,7 +2868,7 @@ li a {
 .hr hr {
   width: 90%;
   display: block;
-  border: 1px solid #00b0ed;
+  border: 0.5px solid #00b0ed;
 }
 .content-teacher1-v1-2 {
   width: 100%;
@@ -2993,8 +2997,6 @@ li a {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   text-align: center;
 
   color: #ffffff;
@@ -3011,7 +3013,6 @@ li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   color: #1f2f3e;
 }
 .teacher {
@@ -3020,8 +3021,6 @@ li a {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   text-align: center;
   border: 1px solid #fafafa;
   color: #123658;
@@ -3030,7 +3029,7 @@ li a {
   color: #949494;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.content-teacher2-v2 tr:nth-child(even) {
+.content-teacher2-v2 tr:nth-child(even) { 
   background: #fafafa;
   border-radius: 0px;
 }
@@ -3058,10 +3057,8 @@ li a {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  /* identical to box height, or 160% */
-
   text-align: center;
-
+  padding: 0;
   color: #ffffff !important;
 }
 .no {
@@ -3082,7 +3079,7 @@ li a {
   font-size: 15px;
   line-height: 24px;
   text-align: center;
-
+  padding: 0;
   color: #ff0000 !important;
 }
 .teacher1 {
@@ -3178,6 +3175,7 @@ li a {
     height: auto;
   }
   .header-menu {
+    display: block;
     padding-top: 18px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin-left: 16px;
@@ -3188,6 +3186,7 @@ li a {
   }
   .header-img {
     padding-top: 12px;
+    padding-left: 76px !important;
   }
   .header-img img {
     width: 70px;
@@ -3195,7 +3194,6 @@ li a {
   }
   .header-search {
     padding-top: 24px;
-
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
   .header-search i {
@@ -3264,7 +3262,7 @@ li a {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-line-height: 25px;
+    line-height: 25px;
   }
   .nav-modal2-v2-2 a{
     color: #FFFFFF;
@@ -3312,13 +3310,15 @@ line-height: 25px;
     padding-top: 15px;
     border-bottom: 0.5px solid rgba(239, 239, 239, 0.69);  
   }
-  .nav-link{    
+  .nav-bar{    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
     color: #FFFFFF !important;
+    margin-left: 0;
+    margin-top: 0;
   }
   .nav-modal3-v3{
     width: 100%;
@@ -3343,7 +3343,6 @@ line-height: 25px;
     padding-top: 15px;
     border-bottom: 0.5px solid rgba(239, 239, 239, 0.69);
   }
-
   .nav-teacher {
     display: none;
   }
@@ -3477,6 +3476,9 @@ line-height: 25px;
     float: left;
     margin-top: 8px;
   }
+  .content-teacher2-v4-2s{
+    display: none;
+  }
   .content-teacher2-v4-3 {
     width: 100%;
     height: auto;
@@ -3512,6 +3514,10 @@ line-height: 25px;
     margin-top: 4px;
     margin-right: 8px;
   }
+  
+.no {
+  margin-right: 0;
+}
   .content-teacher3-v2 {
     width: 100%;
     height: auto;
@@ -3586,9 +3592,13 @@ line-height: 25px;
   }
 }
 /* =====   END TABLET ===== */
+
 /* =====   MOBILE  ===== */
 
 @media only screen and (max-width: 480px) {
+  .header-img{
+    padding-left: 25px !important;
+  }
   .content-teacher {
     margin-left: 13px;
     margin-right: 12px;
@@ -3656,6 +3666,24 @@ line-height: 25px;
   .content-teacher2-v4-1c {
     display: none;
   }
+  .content-teacher2-v4-2{
+    display: none;
+  }
+  .content-teacher2-v4-2s {
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #29c667;
+    float: left;
+    margin-top: 8px;
+    display: block;
+  }
+  .content-teacher2-v4-2s p{
+    color: #29c667;
+  }
   .content-teacher2-v4-3 {
     display: none;
   }
@@ -3713,4 +3741,329 @@ line-height: 25px;
   #select2-1 {
     float: left;
   }
+}
+/* ===== END MOBILE ===== */
+
+/* ======== PHỤ HUYNH MỜI DẠY ======== */
+.invited-teach{
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+.invited-teach2{
+  width: 100%;
+  height: auto;
+  margin-left: 51px;
+  margin-right: 55px;
+  display: block;
+}
+.invited-teach2-v1{
+  width: 100%;
+  height: auto;
+}
+.invited-teach2-v1 p{
+  font-family: UTM Avo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1574D0;
+}
+.invited-teach2-v2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-right: 94%;
+}
+.hr1{
+  width: 22px;
+  height: 3px;
+  background: #F8971C;
+  margin: 0px;
+}
+.hr2{
+  width: 32px;
+  height: 3px;
+  background: #F8971C;
+  margin: auto;
+}
+.invited-teach2-v3{
+  width: 100%;
+  height: auto;
+  margin-top: 22px;
+}
+.table-td{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px !important;
+  color: #1f2f3e;
+  padding-top: 21px !important;
+  text-align: center;
+}
+.table-td1{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+.table-td1 p{
+  color: #29C667;
+  margin-bottom: 0;
+}
+.table-td1 a{
+  color: #4e89ef;;
+}
+.table-yes{
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+.pagination{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0px;
+}
+.pagination1 {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  padding: 0 453px 0 408px;
+  margin-top: -34px;
+  
+}
+.pagination1 li{
+  background: #FFFFFF;
+  border: 0.5px solid #BFBFBF;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.pagination1 li a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F2F3E;
+  margin-top: 0px;
+}
+.pagination1 .left{
+  border: 0px;
+  margin-right: 18px;
+}
+.pagination1 .right{
+  border: 0px;
+  margin-left: 18px;
+}
+.pagination1 .left a, .pagination1 .right a{
+  color: #F8971C;
+}
+.pagination1 .number:hover{
+  background:  #F8971C;
+}
+.pagination1 .number a:hover{
+  color: #FFFFFF;
+}
+.invited-teach2-v4{
+  display: none;
+}
+.click1{
+  display: none;
+}
+/* ======= tablet ======= */
+
+@media only screen and (max-width: 1024px){
+  .invited-teach {
+    margin-top: 28px;
+  }
+  .invited-teach2 {
+    margin-left: 26px;
+    margin-right: 27px;
+  }
+  .invited-teach2-v2 { 
+    padding-right: 91%;
+  }
+  .pagination1 {
+  padding: 0 176px 0 222px;
+  margin-top: 39px;
+  }
+  .invited-teach2-v4{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 28px;
+  }
+  .invited-teach2-v4-1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .invited-teach2-v4-1a {
+    width: 100%;
+    height: auto;
+  }
+  .invited-teach2-v4-1a p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f2f3e;
+    float: left;
+    margin: 5px 0 0 0;
+  }
+  .invited-teach2-v4-1a i {
+    display: none;
+  }
+  .invited-teach2-v4-1b {
+    width: 100%;
+    height: auto;
+    margin-right: 1px;
+  }
+  .invited-teach2-v4-1b a {
+    color: #949494;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    float: right;
+    margin-top: 7px;
+  }
+  .invited-teach2-v4-1c {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .invited-teach2-v4-1c .yes a{
+    margin-left: 21px;
+    line-height: 25px;
+  }
+  .invited-teach2-v4-1c .no a{
+    margin-left: 27px;
+  }
+  .invited-teach2-v4-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #29c667;
+    float: left;
+    margin-top: 8px;
+  }
+  .invited-teach2-v4-2s {
+    display: none;
+  }
+  .invited-teach2-v4-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 6px;
+    display: flex;
+  }
+  .invited-teach2-v4-3a {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #0f2e4b;
+    margin-right: 25px;
+  }
+  .invited-teach2-v4-3a i {
+    color: #f8971c;
+    margin-top: 4px;
+    margin-right: 8px;
+  }
+  .invited-teach2-v4-3b {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0f2e4b;
+    display: flex;
+  }
+  .invited-teach2-v4-3b i {
+    color: #f8971c;
+    margin-top: 4px;
+    margin-right: 8px;
+  }
+  .click-v2{
+    display: none;
+  }
+}
+
+/* ====== END TABLET ====== */
+
+/* ======  MOBILE  ====== */
+
+@media only screen and (max-width:480px){
+  .invited-teach2-v1 p {
+    font-size: 16px;
+  }
+  .invited-teach2-v2 {
+    padding-right: 78%;
+  }
+  .invited-teach2-v4{
+    border-bottom: 1px solid #EDEDED;
+  }
+  .invited-teach2-v4-1b{
+    display: none;
+  }
+  .invited-teach2-v4-1c{
+    display: none;
+  }
+  .invited-teach2-v4-2{
+    display: none;
+  }
+  .invited-teach2-v4-2s {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #29c667;
+    float: left;
+    margin-top: 8px;
+    display: block;
+  }
+  .invited-teach2-v4-2s p{
+    color: #29c667;
+  }
+  .invited-teach2-v4-3 {
+    display: none;
+  }
+  .pagination1 {
+    padding: 0 0 0 23px;
+    margin-top: 20px;
+  }
+  .click1{
+    display: block;
+    float: right;
+  }
+  .click-v2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .click-v2 .yes{
+    width: 100%;
+    height: auto;
+  }
+  .click-v2 .no{
+    width: 100%;
+    height: auto;
+  }
+  .show2{
+    display: inline-block;
+  }
+
 }
