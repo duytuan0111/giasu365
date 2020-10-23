@@ -17,23 +17,22 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
     <script>
-        function myFunction1() {
-            document.getElementById("click-v1").classList.toggle("show1");
-        }
-    
-        window.onclick = function (event) {
-            if (!event.target.matches('.click')) {
-                var dropdowns = document.getElementsByClassName("click");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
+    function myFunction1() {
+        document.getElementById("click-v1").classList.toggle("show1");
+    }
+
+    window.onclick = function(event) {
+        if (!event.target.matches('.click')) {
+            var dropdowns = document.getElementsByClassName("click");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
                 }
             }
         }
-
+    }
     </script>
 </head>
 
@@ -197,7 +196,7 @@
                                     <a href="#">Từ chối</a>
                                 </div>
                                 <div class="clicka">
-                                <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -249,35 +248,35 @@
                             <td class="teacher2"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
                         </tr>
                     </table>
-                        <div class="content-teacher3-v2">
-                            <div class="content-teacher3-v2-1">
-                                <div class="content-teacher3-v2-1a">
-                                    <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
-                                </div>
-                            
-                                <div class="content-teacher3-v2-2">
-                                    <div class="content-teacher3-v2-2a">
-                                        <i class="far fa-clock"></i>12/08/2020
-                                    </div>
-                                    <div class="content-teacher3-v2-2b">
-                                        <i class="fa fa-book"></i>Hóa học lớp 9
-                                    </div>
-                                </div>
+                    <div class="content-teacher3-v2">
+                        <div class="content-teacher3-v2-1">
+                            <div class="content-teacher3-v2-1a">
+                                <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
                             </div>
-                            <div class="content-teacher3-v2-3">
-                                <div class="select">
-                                    <select name="status" id="select2-1" class="select2">
-                                        <option value="1" style="color:#29C667;">Chưa liên hệ</option>
-                                        <option value="2" style="color:#1574D0;">Đang dạy</option>
-                                        <option value="3" style="color:#FF0000;">Không mời dạy</option>
-                                    </select>
+
+                            <div class="content-teacher3-v2-2">
+                                <div class="content-teacher3-v2-2a">
+                                    <i class="far fa-clock"></i>12/08/2020
                                 </div>
-                                
-                                <div class="content-teacher3-v2-3a">
-                                    <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                <div class="content-teacher3-v2-2b">
+                                    <i class="fa fa-book"></i>Hóa học lớp 9
                                 </div>
                             </div>
                         </div>
+                        <div class="content-teacher3-v2-3">
+                            <div class="select">
+                                <select name="status" id="select2-1" class="select2">
+                                    <option value="1" style="color:#29C667;">Chưa liên hệ</option>
+                                    <option value="2" style="color:#1574D0;">Đang dạy</option>
+                                    <option value="3" style="color:#FF0000;">Không mời dạy</option>
+                                </select>
+                            </div>
+
+                            <div class="content-teacher3-v2-3a">
+                                <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="content-teacher2-v3">
                         <a href="#">Xem tất cả >></a>
                     </div>
@@ -289,12 +288,11 @@
         include_once "../inc_footer.php";
     ?>
     <script>
-        $('#select2').select2({
-            tags: true,
-            placeholder="trạng thái"
+    $('#select2').select2({
+        tags: true,
+        placeholder = "trạng thái"
 
-        });
-        
+    });
     </script>
 </body>
 
