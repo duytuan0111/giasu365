@@ -118,7 +118,7 @@
                         </div>
                         <div class="invited-teach2-v4-3" id="click-v2">
                             <div class="invited-teach2-v4-3a">
-                                <i class="fa fa-clock-o"></i>12/08/2020
+                                <i class="fa fa-clock-o"></i> 12/08/2020
                             </div>
                             <div class="invited-teach2-v4-3b">
                                 <i class="fa fa-map-marker"></i>342 Khương Đình, Thanh Xuân, Hà Nội

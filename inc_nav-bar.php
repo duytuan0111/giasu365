@@ -22,8 +22,7 @@
                         <li class="nav-item">
                                 
                             <a class="nav-link nav-custom" href="#" data-toggle="collapse" aria-expanded="false"
-                                data-target="#submenu-3" aria-controls="submenu-3"><i class='fa fa-book'></i>  Quản lý lớp dạy <span
-                                    class="badge badge-success">4</span><i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
+                                data-target="#submenu-3" aria-controls="submenu-3"><i class='fa fa-book'></i>  Quản lý lớp dạy <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
                             <div id="submenu-3" class="submenu collapse" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
@@ -49,8 +48,7 @@
                         <li class="nav-item">
                             <a class="nav-link nav-custom" href="#" data-toggle="collapse" aria-expanded="false"
                                 data-target="#submenu-4" aria-controls="submenu-4"><i class="fa fa-user-circle"
-                                    aria-hidden="true"></i>  Thông tin gia sư <span
-                                    class="badge badge-success">3</span> <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
+                                    aria-hidden="true"></i>  Thông tin gia sư <i class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
                             <div id="submenu-4" class="collapse submenu" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">

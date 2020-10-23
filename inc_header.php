@@ -48,8 +48,7 @@
                                 <div class="nav-modal3-v2">
                                     <li class="nav-item">
                                         <a class="nav-link nav-bar" href="#" data-toggle="collapse" aria-expanded="false"
-                                            data-target="#submenu" aria-controls="submenu">Quản lý lớp dạy <span
-                                                class="badge badge-success">4</span> <i class="fa fa-caret-down"
+                                            data-target="#submenu" aria-controls="submenu">Quản lý lớp dạy  <i class="fa fa-caret-down"
                                                 aria-hidden="true" style="float: right;"></i></a>
                                         <div id="submenu" class="collapse submenu" style="">
                                             <ul class="nav flex-column">
@@ -75,8 +74,7 @@
                                 <div class="nav-modal3-v4">
                                     <li class="nav-item">
                                         <a class="nav-link nav-bar" href="#" data-toggle="collapse" aria-expanded="false"
-                                            data-target="#submenu-2" aria-controls="submenu-2">Thông tin gia sư <span
-                                                class="badge badge-success">3</span> <i class="fa fa-caret-down"
+                                            data-target="#submenu-2" aria-controls="submenu-2">Thông tin gia sư  <i class="fa fa-caret-down"
                                                 aria-hidden="true" style="float: right;"></i></a>
                                         <div id="submenu-2" class="collapse submenu" style="">
                                             <ul class="nav flex-column">
