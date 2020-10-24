@@ -95,7 +95,7 @@
                         <div class="invited-teach2-v4-1a">
                             <p>Nguyễn Mạnh Huy</p>
                             <button class="click1" onclick="myFunction2()">
-                                <a href="#"><span class="fa fa-chevron-circle-down" aria-hidden="true"></span></a>
+                                <a href="#"><span class="fa fa-chevron-down" aria-hidden="true"></span></a>
                             </button>
 
                             <div class="invited-teach2-v4-2s">

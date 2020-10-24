@@ -98,7 +98,7 @@
                             <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
                         </div>
                         <button class="click2" onclick="myFunction3()">
-                            <a href="#"><span class="fa fa-chevron-circle-down" aria-hidden="true"></span></a>
+                            <a href="#"><span class="fa fa-chevron-down" aria-hidden="true"></span></a>
                         </button>
                         <div class="received-content3-v1-2">
                             <select name="status" id="trangthai" data-placeholder="trạng thái" class="trangthai">

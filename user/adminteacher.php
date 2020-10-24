@@ -160,7 +160,7 @@
                             <div class="content-teacher2-v4-1a">
                                 <p>Nguyễn Mạnh Huy</p>
                                 <button class="click" onclick="myFunction1()">
-                                    <a href="#"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                                 </button>
                                 <div class="content-teacher2-v4-2s">
                                     <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
