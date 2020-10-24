@@ -85,7 +85,7 @@
                                                     <a class="nav-link nav-bar" href="#">Đổi mật khẩu</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link nav-bar" href="#">Đăng xuất</a>
+                                                    <a class="nav-link nav-bar" data-toggle="modal" href="#modal-logout">Đăng xuất</a>
                                                 </li>
                                             </ul>
                                         </div>
