@@ -64,7 +64,7 @@
     <div class="modal fade" id="modal-logout">
         <div class="modal-dialog modal-dialog1">
             <div class="modal-content modal-content1">
-                <div class="modal-header modal-header1">
+                <div class="modal-header modal-header-logout">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4 class="modal-title">Thông báo   </h4>
                 </div>

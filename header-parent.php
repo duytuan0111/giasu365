@@ -25,7 +25,7 @@
                         <nav class="nav-modal">
                             <div class="nav-modal1">
                                 <div class="nav-modal1-v1">
-                                    <img src="../asset/images/Group 2728.png" alt="">
+                                    <img src="../asset/images/Group 2389.png" alt="">
                                 </div>
                                 <div class="nav-modal2">
                                     <div class="nav-modal2-v1">
@@ -41,29 +41,38 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="nav-modal3">
+                            <div class="nav-modal3s">
                                 <div class="nav-modal3-v1">
                                     <a href="#">Quản lý chung</a>
+                                </div>
+                                <div class="nav-modal3-v1" style="margin-top:20px">
+                                    <a href="#">Đăng tin tìm gia
+                                        sư</a>
+                                </div>
+                                <div class="nav-modal3-v1" style="margin-top:20px">
+                                    <a href="#">Tất cả tin đã
+                                        đăng</a>
                                 </div>
                                 <div class="nav-modal3-v2">
                                     <li class="nav-item">
                                         <a class="nav-link nav-bar" href="#" data-toggle="collapse"
-                                            aria-expanded="false" data-target="#submenu" aria-controls="submenu">Quản lý
+                                            aria-expanded="false" data-target="#submenu-6"
+                                            aria-controls="submenu-6">Quản lý
                                             lớp dạy <i class="fa fa-caret-down" aria-hidden="true"
                                                 style="float: right;"></i></a>
-                                        <div id="submenu" class="collapse submenu" style="">
+                                        <div id="submenu-6" class="collapse submenu" style="">
                                             <ul class="nav flex-column">
                                                 <li class="nav-item">
-                                                    <a class="nav-link nav-bar" href="#">Phụ huynh mời dạy</a>
+                                                    <a class="nav-link nav-bar" href="#">Gia sư đã mời dạy</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link nav-bar" href="#">Lớp đã nhận dạy</a>
+                                                    <a class="nav-link nav-bar" href="#">Gia sư đã đề nghị dạy</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link nav-bar" href="#">Lớp đã đề nghị dạy</a>
+                                                    <a class="nav-link nav-bar" href="#">Gia sư đang dạy</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link nav-bar" href="#">Lớp đã lưu</a>
+                                                    <a class="nav-link nav-bar" href="#">Gia sư đã lưu</a>
                                                 </li>
                                             </ul>
                                         </div>
