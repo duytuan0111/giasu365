@@ -45,7 +45,7 @@ table td {
   border: 3px solid #ffffff !important;
 }
 table td:hover {
-  background-color: #50bff0;
+  /* background-color: #50bff0; */
 }
 textarea {
   width: 100%;
@@ -4559,7 +4559,6 @@ li a {
     margin: 22px 0 0 23px;
   }
   .modal-header1 .close {
-    color: #a9a9a9;
     margin: 4px -19px;
   }
   .modal-header-logout .close {
@@ -5301,7 +5300,13 @@ li a {
 .manager5 {
   display: none;
 }
-
+.table-td:nth-child(even) {
+  background: #fafafa;
+  border-radius: 0px;
+}
+.table-td:hover {
+  background-color: #ddd !important;
+}
 /* =====   TABLET QUẢN LÝ PHỤ HUYNH ===== */
 
 @media only screen and (max-width: 1024px) {
@@ -5539,3 +5544,77 @@ li a {
     color: #ffffff;
   }
 }
+/* ==== END MOBILE === */
+/* ==== ĐĂNG TN TÌM GIA SƯ ==== */
+#search-teacher {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+#search-teacher-1 {
+  padding-bottom: 76px;
+}
+.search-teacher {
+  height: auto;
+  margin-top: 27px;
+  margin-left: 0;
+}
+.search-teacher-form {
+  margin-left: 0 !important;
+}
+#search-teacher1 {
+  margin-top: 5px;
+}
+#search-teacher-textarea {
+  margin-top: 5px;
+}
+.searcher-teacher-table {
+  margin-top: 39px;
+  padding-right: 115px;
+}
+.label-input-checkbox {
+  line-height: 148.69%;
+}
+/* ==== TABLET TÌM GIA SƯ === */
+@media only screen and (max-width: 1024px) {
+  #search-teacher-1 {
+    padding-bottom: 0;
+  }
+  #search-teacher-form1 {
+    padding: 0;
+  }
+  #search-teacher-textarea {
+    padding-top: 365px;
+  }
+  .searcher-teacher-table {
+    margin-top: 15px;
+    padding-right: 0;
+  }
+  .input-label {
+    padding-right: 0 !important;
+  }
+}
+/* === END TABLET === */
+/* === MOBILE TÌM GIA SƯ === */
+@media only screen and (max-width: 480px) {
+  .searcher-teacher-table {
+    margin-top: 17px;
+  }
+  .form-label {
+    padding-right: 5px !important;
+  }
+  .div-reg {
+    margin-top: 30px;
+    margin-bottom: 29px;
+  }
+  .input-row-3 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1574d0;
+    padding: 0;
+  }
+}
+/* === END MOBILE === */
