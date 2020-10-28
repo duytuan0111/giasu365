@@ -124,10 +124,11 @@
                             </div>
                             <div class="manager4-v3">
                                 <div class="manager4-v3-1">
-                                    <i class="fa fa-clock-o" aria-hidden="true"></i>   12/08/2020
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 12/08/2020
                                 </div>
                                 <div class="manager4-v3-2">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>    342 Khương Đình, Thanh Xuân, Hà Nội
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 342 Khương Đình, Thanh Xuân, Hà
+                                    Nội
                                 </div>
                             </div>
                         </div>
@@ -171,7 +172,7 @@
                                 <td class="table-td">342 Khương Đình, Thanh Xuân, Hà Nội</td>
                                 <td class="table-td">
                                     <div class="moiday">
-                                    <a data-toggle="modal" href='#popup-moiday'>Mời dạy</a>
+                                        <a data-toggle="modal" href='#popup-moiday'>Mời dạy</a>
                                     </div>
                                 </td>
                             </tr>
@@ -185,7 +186,7 @@
                             <div class="moiday">
                                 <a data-toggle="modal" href='#popup-moiday'>Mời dạy</a>
                             </div>
-                            
+
                         </div>
                         <div class="manager4s">
                             <div class="manager4-v2s">
@@ -193,10 +194,11 @@
                             </div>
                             <div class="manager4-v3s">
                                 <div class="manager4-v3-1">
-                                    <i class="fa fa-clock-o" aria-hidden="true"></i>   12/08/2020
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 12/08/2020
                                 </div>
                                 <div class="manager4-v3-2">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>    342 Khương Đình, Thanh Xuân, Hà Nội
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 342 Khương Đình, Thanh Xuân, Hà
+                                    Nội
                                 </div>
                             </div>
                         </div>
@@ -216,7 +218,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade" id="popup-moiday">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -228,7 +230,7 @@
                     <div class="modal-body1">
                         <img src="../asset/images/Group 2728.png" alt="">
                         <div class="modal-body1-v1">
-                        Nguyễn Thanh Huyền
+                            Nguyễn Thanh Huyền
                         </div>
                     </div>
                     <div class="modal-body2">
@@ -241,7 +243,7 @@
                                 <p>[ML:12345] <span>Tìm gia sư môn tiếng Anh lớp 7 tại Hà Nội</span></p>
                             </label>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="modal-footer modal-footer1">
@@ -250,7 +252,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php include_once "../inc_footer.php"; ?>
 </body>
 

@@ -1,5 +1,5 @@
 <div class="nav-teacher">
-<nav class="nav-teacher1" id="nav-teacher1">
+    <nav class="nav-teacher1" id="nav-teacher1">
         <div class="nav-teacher1-v1">
             <img src="../asset/images/Group 2389.png" alt="">
         </div>
@@ -28,8 +28,9 @@
                 <li class="nav-item">
 
                     <a class="nav-link nav-custom" href="#" data-toggle="collapse" aria-expanded="false"
-                        data-target="#submenu-5" aria-controls="submenu-5"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Quản lý gia sư <i
-                            class="fa fa-caret-down" aria-hidden="true" style="float: right;"></i></a>
+                        data-target="#submenu-5" aria-controls="submenu-5"><i class="fa fa-graduation-cap"
+                            aria-hidden="true"></i> Quản lý gia sư <i class="fa fa-caret-down" aria-hidden="true"
+                            style="float: right;"></i></a>
                     <div id="submenu-5" class="submenu collapse" style="">
                         <ul class="nav flex-column">
                             <li class="nav-item">
@@ -73,6 +74,6 @@
                 </li>
             </div>
         </div>
-    </nav>  
-    
+    </nav>
+
 </div>

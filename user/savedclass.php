@@ -14,7 +14,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
-    
+
     <script>
     function myFunction4() {
         document.getElementById("click-v4").classList.toggle("show4");
@@ -77,11 +77,13 @@
                                 <p>Tiếng Anh</p>
                                 <p>Tiếng Trung</p>
                             </td>
-                            <td class="table-td"><p class="red">120.000vnđ/giờ </p></td>
+                            <td class="table-td">
+                                <p class="red">120.000vnđ/giờ </p>
+                            </td>
                             <td class="table-td">
                                 <div class="saved-class2">
-                                        <p><span style="color: #1574D0;">3</span>  lượt đề nghị</p>
-                                   
+                                    <p><span style="color: #1574D0;">3</span> lượt đề nghị</p>
+
                                     <div class="saved-class2-v2">
                                         <a href="#">Đề nghị dạy</a>
                                     </div>
@@ -97,11 +99,11 @@
             <div class="saved-class3">
                 <div class="saved-class3-v1">
                     <p>Mã lớp: 12345 <a href="#">(Xem chi tiết)</a></p>
-                    
+
                 </div>
                 <div class="received-content3-v2-2" id="trash">
-                        <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                    </div>
+                    <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                </div>
                 <button class="click4" onclick="myFunction4()">
                     <a><span class="fa fa-chevron-down" aria-hidden="true"></span></a>
                 </button>
@@ -110,31 +112,31 @@
                     <p> Toán,Tiếng Anh,Tiếng Trung</p>
                 </div>
                 <div class="saved-class3-v3" id="click-v4">
-                <div class="saved-class3-v3-1">
-                    <div class="saved-class3-v3-1a">
-                        Lịch học dự kiến:
+                    <div class="saved-class3-v3-1">
+                        <div class="saved-class3-v3-1a">
+                            Lịch học dự kiến:
+                        </div>
+                        <div class="saved-class3-v3-1s">
+                            <p><span>Sáng:</span> T2</p>
+                            <p><span>Chiều:</span> T2</p>
+                            <p><span>Tối:</span> T2</p>
+                        </div>
                     </div>
-                    <div class="saved-class3-v3-1s">
-                        <p><span>Sáng:</span> T2</p>
-                        <p><span>Chiều:</span> T2</p>
-                        <p><span>Tối:</span> T2</p>
-                    </div>
-                </div>
-                <div class="saved-class3-v3-2">
-                    <div class="saved-class3-v3-2a">
-                        <p>120.000vnđ/giờ </p>
-                        <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="saved-class3-v3-3">
-                            <p><span style="color: #1574D0;">3</span>  lượt đề nghị</p>
-                        <div class="saved-class2-v2">
-                            <a href="#">Đề nghị dạy</a>
+                    <div class="saved-class3-v3-2">
+                        <div class="saved-class3-v3-2a">
+                            <p>120.000vnđ/giờ </p>
+                            <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="saved-class3-v3-3">
+                            <p><span style="color: #1574D0;">3</span> lượt đề nghị</p>
+                            <div class="saved-class2-v2">
+                                <a href="#">Đề nghị dạy</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            
+
             <div class="pagination">
                 <ul class="pagination1" id="pagination-1">
                     <li class="left"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
