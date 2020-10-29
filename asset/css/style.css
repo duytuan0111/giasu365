@@ -577,6 +577,9 @@ a:hover {
 .red {
   color: red;
 }
+.green {
+  color: #29c667;
+}
 .label-input {
   display: block;
   font-family: Roboto;
@@ -3004,7 +3007,6 @@ li a {
 }
 
 .content-teacher2-v2 .text-teach {
-  width: 20%;
   display: table-cell;
   border: 1px solid #fafafa;
 }
@@ -4578,13 +4580,12 @@ li a {
   }
   .modal-content1 {
     width: 340px;
-    height: 210px;
+    height: 193px;
   }
   .modal-body-infor {
     font-size: 15px;
   }
   .modal-infor {
-    margin-top: 73px;
     margin-left: 16px;
   }
 }
@@ -5117,6 +5118,9 @@ li a {
 .blue {
   color: #1574d0;
 }
+.bluebg {
+  background: #00b0ed;
+}
 #manager {
   width: 100%;
   height: auto;
@@ -5394,24 +5398,26 @@ li a {
   }
   .manager4-v3,
   .manager4-v3s {
-    width: 100%;
+    width: 65%;
     height: auto;
     display: flex;
     padding-left: 35px;
-    margin-top: 5px;
   }
   .manager4-v3-1 {
+    margin-top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #0f2e4b;
   }
   .manager4-v3-1 i {
     color: #f8971c;
   }
-  .manager4-v3-2 {
+  .manager4-v3-2,
+  .manager4-v3-2s {
+    margin-top: 2px;
     margin-left: 28px;
     font-family: Roboto;
     font-style: normal;
@@ -5440,8 +5446,49 @@ li a {
   #modal-body {
     padding: 23px !important;
   }
+  .manager4-v3-3 {
+    width: 40%;
+    height: auto;
+    display: flex;
+    text-align: center;
+  }
   .manager4-v4 {
     display: none;
+  }
+  .div-manager4 {
+    padding-left: 10px;
+  }
+  .div-manager {
+    margin: 0;
+  }
+  .div-manager p {
+    margin: 2px 0;
+  }
+  .div-manager1 {
+    display: none;
+  }
+  .div {
+    margin-left: 17px;
+  }
+  .manager4-select {
+    display: none;
+  }
+  .manager4-yes {
+    display: none;
+  }
+  .manager4-malop {
+    padding-top: 3px;
+    padding-left: 6px;
+  }
+  .manager4-v1-2 img {
+    margin-left: 5px;
+  }
+  .teaching1 {
+    padding-left: 0;
+  }
+  .teaching-select {
+    width: 60%;
+    text-align: end;
   }
 }
 /* ==== END TABLET ==== */
@@ -5469,6 +5516,7 @@ li a {
     display: block;
   }
   .manager4-v2 {
+    position: relative;
     float: right;
   }
   .manager4-v1-2 {
@@ -5490,7 +5538,8 @@ li a {
   .btn-footer {
     width: 58%;
   }
-  .manager4-v3-2 {
+  .manager4-v3-2,
+  .manager4-v3-2s {
     margin-left: 0;
   }
   .manager4-v2s {
@@ -5542,6 +5591,39 @@ li a {
     font-size: 16px;
     line-height: 32px;
     color: #ffffff;
+  }
+  .manager4-v1-2 img {
+    margin-left: 0;
+  }
+  .div-manager {
+    display: none !important;
+  }
+  .div-manager1 {
+    display: block;
+  }
+  .div-manager4 {
+    display: flex;
+  }
+  .div {
+    margin-left: 21px;
+  }
+  .manager4-v3-3 {
+    margin-left: -5px;
+    margin-top: 5px;
+  }
+  .manager4-select {
+    display: block;
+    background: #ffffff;
+  }
+  .manager4-yes {
+    display: flex;
+    width: 100%;
+  }
+  .teaching-select {
+    display: none;
+  }
+  .manager4-malop {
+    padding-left: 0;
   }
 }
 /* ==== END MOBILE === */

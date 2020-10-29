@@ -21,6 +21,7 @@
             <div class="nav-teacher3-v1" style="margin-top:20px">
                 <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i> Đăng tin tìm gia sư</a>
             </div>
+            
             <div class="nav-teacher3-v1" style="margin-top:20px">
                 <a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i> Tất cả tin đã đăng</a>
             </div>
@@ -55,10 +56,10 @@
             <div class="nav-teacher3-v4">
                 <li class="nav-item">
                     <a class="nav-link nav-custom" href="#" data-toggle="collapse" aria-expanded="false"
-                        data-target="#submenu-6" aria-controls="submenu-6"><i class="fa fa-user-circle"
+                        data-target="#submenu-7" aria-controls="submenu-7"><i class="fa fa-user-circle"
                             aria-hidden="true"></i> Thông tin cá nhân <i class="fa fa-caret-down" aria-hidden="true"
                             style="float: right;"></i></a>
-                    <div id="submenu-6" class="collapse submenu" style="">
+                    <div id="submenu-7" class="collapse submenu" style="">
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link nav-custom" href="#">Cập nhật thông tin</a>
