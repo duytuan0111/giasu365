@@ -4839,8 +4839,8 @@ li a {
 }
 .icon-information {
   position: absolute;
-  left: 785px;
-  top: 342px;
+  left: 525px;
+  top: 42px;
 }
 .information3 {
   width: 100%;
@@ -5747,3 +5747,82 @@ li a {
   }
 }
 /* === END MOBILE === */
+/* === UPDATE INFOR PARENT === */
+.infor-parent{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 38px;
+}
+.infor-parent-v1{
+  width: 100%;
+  height: auto;
+}
+.file-img img{
+  width: 145px;
+  height: 145px;
+}
+.icon-infor{
+  position: absolute;
+  left: 506px;
+  top: 42px;
+}
+.infor-parent-form{
+  width: 95%;
+}
+.infor-parent-form2{
+  width: 100%;
+  margin-top: 30px;
+}
+.infor-parent-input{
+  width: 50%;
+  float: right;
+}
+#infor-parent{
+  display: none;
+}
+.infor-input{
+  display: none;
+}
+/* === tablet update parent == */
+@media only screen and (max-width: 1024px){
+  .infor-parent{
+    display: none;
+  }
+  .file-img img {
+    width: 106px;
+    height: 106px;
+  }
+  #infor-parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+  }
+  .infor-parent-form {
+    width: 92%;
+  }
+  .infor-parent-form2 {
+    margin-top: 0;
+  }
+  .infor-input{
+    display: block;
+  }
+}
+/* === end tablet === */
+/* === mobile update parent === */
+@media only screen and (max-width:480px){
+  #infor-parent{
+    display: block;
+    margin-top: 48px;
+  }
+  .infor-parent-form {
+    width: 94%;
+    position: absolute;
+    padding-top: 130px;
+  }
+  .infor-parent-v1 {
+    padding-bottom: 180px;
+    position: unset;
+  }
+}

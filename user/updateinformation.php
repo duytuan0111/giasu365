@@ -277,7 +277,6 @@
                 <div class="row input-row-1">
                     <select class="form-control" name="sex">
                         <option selected="">Chọn tối đa 3 quận/huyện</option>
-
                     </select>
                 </div>
                 <div class="row input-row-1">

@@ -20,21 +20,7 @@
 </head>
 
 <body>
-    <!-- <div class="row" id="menu-header">
-        <div class="col-md-3 back-home">
-            <a href="#"><img src="../asset/images/return 1.png" alt=""> Quay lại Timviec365.com</a>
-        </div>
-        <div class="col-md-9">
-            <ul class="ul-menu">
-                <li><img src="../asset/images/Group.png" alt=""></li>
-                <li><a href="#">Dành cho phụ huynh</a></li>
-                <li><a href="#">Dành cho gia sư</a></li>
-                <li><a href="#">Blog gia sư</a></li>
-                <li><a href="#" class="btn-register--blue">Đăng ký làm gia sư</a></li>
-                <li><a href="#">Đăng nhập</a> / <a href="#">Đăng ký</a></li>
-            </ul>
-        </div>
-    </div> -->
+   <?php include_once "../header-home.php"; ?>
     <div id="register">
 
         <div class="head-conten">
@@ -48,7 +34,6 @@
                     <hr>
                     <hr>
                     <hr>
-
                 </div>
                 <div class="head-conten1-v2">
                     <div class="head-conten1-v2-1">
@@ -249,7 +234,7 @@
 
         </div>
     </div>
-
+    <?php include_once "../inc_footer.php"; ?>
     <script class="script">
 
         $('.content3-v2').slick({
@@ -265,7 +250,7 @@
                         draggable: false,
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        autoplay: 5000,
+                        // autoplay: 5000,
                         prevArrow: '<div class="prev"><img src="../asset/images/left.png" alt=""></div>',
                         nextArrow: '<div class="next"><img src="../asset/images/right.png" alt=""></div>',
                     }
