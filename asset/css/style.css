@@ -5388,7 +5388,8 @@ li a {
     text-align: center;
   }
   .manager4-v2 a,
-  .manager4-v2s a {
+  .manager4-v2s a,
+  .manager4-v2 p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -5484,12 +5485,14 @@ li a {
     margin-left: 5px;
   }
   .teaching1 {
+    width: 100%;
     padding-left: 0;
   }
   .teaching-select {
     width: 60%;
     text-align: end;
   }
+  
 }
 /* ==== END TABLET ==== */
 /* ==== MOBILE QUẢN LÝ PHỤ HUYNH === */
@@ -5675,6 +5678,24 @@ li a {
   .input-label {
     padding-right: 0 !important;
   }
+  .news-posted{
+    width: 100%;
+    padding-left: 0!important;
+  }
+  .news-posted2{
+    display: none;
+  }
+  .news-posted-v1{
+    margin-left: 0;
+  }.news-posted-v2{
+    margin-left: 19px;
+  }
+  .news-posted-v3{
+    margin-left: 10px;
+  }
+  .news-posted-v3-2s{
+    display: none;
+  }
 }
 /* === END TABLET === */
 /* === MOBILE TÌM GIA SƯ === */
@@ -5697,6 +5718,32 @@ li a {
     line-height: 28px;
     color: #1574d0;
     padding: 0;
+  }
+  .news-posted3{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 13px;
+  }
+  .news-posted1{
+    display: none;
+  }
+  .news-posted2{
+    width: 75%;
+    height: auto;
+    display: block;
+    text-align: end;
+  }
+  .news-posted-v2{
+    margin-left: 0;
+  }
+  .news-posted-v3{
+    display: none;
+  }
+  .news-posted-v3-2s{
+    display: block;
+  }
+  .manager4-v3-2{
+    margin-top: 8px;
   }
 }
 /* === END MOBILE === */
