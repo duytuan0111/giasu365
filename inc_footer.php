@@ -30,14 +30,14 @@
             <div id="bocongthuong" class="pull-left">
                 <a href="http://online.gov.vn/(X(1)S(v5imsxysht0tkoyqmeb5jllf))/Home/WebDetails/69185?AspxAutoDetectCookieSupport=1"
                     target="_blank" rel="nofollow">
-                    <img style="width:auto" src="/images/load.gif" class="lazyload"
+                    <img style="width:auto" src="../asset/images/image 15.png" class="lazyload"
                         data-src="https://timviec365.com/images/dk.png" alt="Đã đăng ký Bộ công thương">
                 </a>
             </div>
             <div class="pull-left">
-                <a class="icon_mxh"><img src="/images/ico_twitter.png" alt="Twitter"></a>
-                <a class="icon_mxh"><img src="/images/ico_fb.png" alt="Facebook"></a>
-                <a class="icon_mxh"><img src="/images/ico_youtube.png" alt="Youtube"></a>
+                <a class="icon_mxh"><img src="../asset/images/twitter.png" alt="Twitter"></a>
+                <a class="icon_mxh"><img src="../asset/images/facebook.png" alt="Facebook"></a>
+                <a class="icon_mxh"><img src="../asset/images/youtube.png" alt="Youtube"></a>
             </div>
         </div>
         <div class="col col_3">
@@ -123,7 +123,7 @@ footer {
 #footer-top a {
     color: #fff;
     padding: 0 13px;
-    font-size: 16px
+    font-size: 16px;
 }
 
 #footer-bottom {
@@ -145,7 +145,7 @@ footer {
     color: #fff !important;
     font-family: Roboto-Medium !important;
     margin-bottom: 21px !important;
-    text-transform: unset !important
+    text-transform: unset !important;
 }
 
 .col_1 p {
@@ -153,22 +153,22 @@ footer {
     float: left;
     font-weight: 500;
     font-size: 16px;
-    font-family: Roboto-Medium
+    font-family: Roboto-Medium;
 }
 
 .col_1 .fa-building-o {
     font-size: 26px;
-    line-height: 42px
+    line-height: 42px;
 }
 
 .col_1 .fa {
     margin-right: 24px;
     text-align: center;
-    float: left
+    float: left;
 }
 
 #footer-bottom .content {
-    padding-right: 70px
+    padding-right: 70px;
 }
 
 .col_1 span {

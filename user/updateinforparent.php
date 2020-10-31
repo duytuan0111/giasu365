@@ -82,7 +82,7 @@
                     <div class="form-group information-input col-md-6 col-sm-6 col-xs-12">
                         <label for="">Giới tính <span class="red">*</span></label>
                         <select name="sex" id="" class="form-control">
-                            <option value="1">Chọn giới tính</option>
+                            <option selected>Chọn giới tính</option>
                             <option value="1">Nam</option>
                             <option value="2">Nữ</option>
                         </select>
@@ -103,7 +103,7 @@
                     </div>
                 </form>
             </div>
-            
+
             <div class="div-reg">
                 <a href="#" class="btn-user-register">Cập nhật</a>
             </div>
@@ -111,4 +111,5 @@
     </div>
     <?php include_once "../inc_footer.php"; ?>
 </body>
+
 </html>
