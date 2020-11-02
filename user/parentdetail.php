@@ -103,7 +103,7 @@
                     </div>
                     <div class="detail4-bonnus">
                         <div class="detail4-v3">
-                            <span class="red">130.000 vnđ/giờ</span>
+                            <span class="orange">130.000 vnđ/giờ</span>
                         </div>
                         <div class="detail4-v3s">
                             <p>3 lượt đề nghị</p>

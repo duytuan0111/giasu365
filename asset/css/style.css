@@ -472,10 +472,7 @@ a:hover {
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  /* identical to box height, or 141% */
-
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 @media (max-width: 500px) {
@@ -578,7 +575,7 @@ a:hover {
   color: red;
 }
 .green {
-  color: #29c667;
+  color: #29c667 !important;
 }
 .label-input {
   display: block;
@@ -4537,7 +4534,7 @@ li a {
 }
 .gray {
   color: #949494;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .saved-class3 {
   display: none;
@@ -5034,7 +5031,7 @@ li a {
 /* ===== END MOBILE ===== */
 /* ===== QUẢN LÝ CHUNG PHỤ HUYNH ===== */
 .blue {
-  color: #1574d0;
+  color: #1574d0 !important;
 }
 .bluebg {
   background: #00b0ed;
@@ -5821,6 +5818,7 @@ li a {
   box-sizing: border-box;
   border-radius: 5px;
   display: inline-block;
+  text-align: center;
 }
 .infor-detail-v3-1 p {
   margin: 0;
@@ -5833,6 +5831,7 @@ li a {
   height: auto;
   display: flex;
   margin-top: 22px;
+  text-align: center;
 }
 .infor-detail1-v1 {
   background: #1574d0;
@@ -6268,4 +6267,194 @@ li a {
     margin-right: 0;
     font-size: 14px;
   }
+}
+.class-detail{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.class-detail-img{
+  height: auto;
+  float: left;
+  background: rgba(240, 242, 243, 0.4);
+  border-radius: 5px;
+}
+.class-detail-img img{
+  width: 145px;
+  height: 177px;
+}
+.class-detail-v1{
+  width: 85%;
+  height: auto;
+  border-bottom: 0.5px dashed #838383;
+  float: right;
+}
+.infor-class p{
+  display: inline-block;
+  margin:0;
+}
+.infor-detail-padding p{
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.orange{
+  color: #FF5C00 !important;
+}
+.infor-class1{
+  width: 75%;
+  height: auto;
+  float: left;  
+}
+.infor-class2{
+  float: right;
+  width: 25%;
+  height: auto;
+  margin-top: 14px;
+}
+.class-detail-v2{
+  width: 85%;
+  height: auto;
+  float: right;
+  margin-top: 18px;
+}
+.infor-detail-class{
+  float: right;
+  width: 22%;
+  height: auto;
+  display: grid;
+}
+.div-class-detail{
+  margin-top: 9px;
+}
+.infor-detail-class1{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.infor-class-p{
+  float: left;
+  margin-right: 32px;
+}
+.class-detail2{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.class-detail2-v1{
+  width: 75%;
+  height: auto;
+}
+.class-detail2-v2{
+  width: 27%;
+  height: auto;
+  margin-top: 23px;
+}
+.infor-detail1-v2{
+  background: #72CD96;
+  border-radius: 5px;
+  width: 104px;
+  height: 26px;
+  margin-right: 10px;
+}
+.infor-detail1-v2 a{
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.d-css-class-detail2-infor{
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+}
+.d-css-class-detail{
+  width: 100%;
+  height: auto;
+}
+.d-css-class-detail1{
+  height: auto;
+  display: flex;
+  margin-top:44px;
+}
+.d-css-class-detail2{
+  width: 100%;
+  height: auto;
+  margin-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.d-css-class-detail2 p{
+  margin: 0;
+}
+.d-css-class-detail2-infor1{
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+.d-css-class-detail-text{
+  width: 100%;
+  height: auto;
+  margin-top: 31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C3D5D;
+  padding-right: 42px;
+}
+.d-css-class-detail-table{
+  margin-top: 51px;
+}
+.d-css-class-detail2-bar{
+  width: 340px;
+  height: auto;
+  background: #FFFFFF;
+  border: 0.3px solid #CDCDCD;
+  box-sizing: border-box;
+}
+.d-css-class-detail2-bar2{
+  padding-left: 22px;
+  border-bottom: 0.3px solid #CDCDCD;
+}
+.d-css-class-bar{
+  padding-bottom: 22px;
+  border-bottom: 0.3px solid #CDCDCD;
+  text-align: center;
+}
+.hr3{
+  padding: 0px;
+}
+.d-css-type{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.d-css-class-detail-signin{
+  background-image: url("../images/Group (7).png");
+  background-repeat: no-repeat;
+  width: 340px; ;
+  height: 471px;
+  margin-top: 35px;
+}
+.d-css-class-detail-signin1 img{
+  width: 72px;
+  height: 33px;
+  margin: 20px;
+}
+.d-css-class-detail-signup{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-top: 225px;
+  text-align: center;
 }
