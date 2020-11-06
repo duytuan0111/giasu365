@@ -24,18 +24,29 @@
                 <img src="../asset/images/Group 2385.png" alt="">
             </div>
             <div class="class-detail-v1">
-                <div class="infor-detail-v1 infor-class">
+                <div class="infor-class">
                     <p>Tìm gia sư lớp 5</p>
+                </div>
+
+                <div class="d-none">
+                    <button class="d-infor-class-detail" id="infor-detail-v3-1" onclick="clickFunction()">
+                        <p><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu lớp học</p>
+                    </button>
+                    <div class="saved-class2-v2 div-class-detail d-infor-class-detail" id="btn2">
+                        <a data-toggle="modal" href='#modal-login'><img src="../asset/images/send 1.png" alt=""> Đề
+                            nghị
+                            dạy</a>
+                    </div>
                 </div>
                 <div class="infor-detail-v2 infor-detail-padding infor-class1">
                     <p class="infor-detail-p green"> Mã lớp: 1223</p>
-                    <p><img src="../asset/images/Group 2653.png" alt="">
+                    <p class="color-blue"><img src="../asset/images/Group 2653.png" alt="">
                         Hoàng Duy
                     </p>
-                    <p><img src="../asset/images/calendar (2) 1.png" alt="">
+                    <p class="d-detail-left"><img src="../asset/images/calendar (2) 1.png" alt="">
                         12/08/2020
                     </p>
-                    <p>3 lượt đề nghị
+                    <p style="margin-right:0">3 lượt đề nghị
                     </p>
                 </div>
                 <div class="detail4-v3 infor-class2">
@@ -44,10 +55,14 @@
             </div>
             <div class="class-detail-v2">
                 <div class="infor-detail-class">
-                    <button class="infor-detail-v3-1" id="infor-detail-v3-1" onclick="clickFunction()">
+                    <div class="detail4-v3 d-class-detail">
+                        <span class="orange">130.000 vnđ/giờ</span>
+                    </div>
+                    <button class="infor-detail-v3-1 d-infor-class-detail" id="infor-detail-v3-1"
+                        onclick="clickFunction()">
                         <p><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu lớp học</p>
                     </button>
-                    <div class="saved-class2-v2 infor-detail-v3-1 div-class-detail" id="btn2">
+                    <div class="saved-class2-v2 infor-detail-v3-1 div-class-detail d-infor-class-detail" id="btn2">
                         <a data-toggle="modal" href='#modal-login'><img src="../asset/images/send 1.png" alt=""> Đề nghị
                             dạy</a>
                     </div>
@@ -57,6 +72,10 @@
                             class="orange">ĐANG TÌM GIÁO VIÊN</span></p>
                     <p class="infor-class-p"><img src="../asset/images/book (6) 1.png" alt="">
                         Môn học: Toán</p>
+                    <p class="d-infor-class-p1">
+                        <img src="../asset/images/dollar 1.png" alt="">
+                        Học phí: <span class="orange"> 160.000 vnđ/giờ</span>
+                    </p>
                     <p data-toggle="modal" href='#modal-login' id="btn1"><img src="../asset/images/Group 2492.png"
                             alt="">
                         Địa chỉ: Hà Nội</p>
@@ -266,22 +285,22 @@
                 </div>
             </div>
             <div class="class-detail2-v2">
-                <div class="d-css-class-detail2-bar">
+                <div class="d-css-class-detail2-bar row">
                     <div class="received-content1 d-css-class-bar">
                         <p>Lớp học tương tự</p>
                         <hr class="hr2 hr3">
                     </div>
-                    <div class="d-css-class-detail2-bar2">
-                        <div class="infor-detail-v2">
-                            <p class="blue">
-                                Tìm gia sư sinh viên sư phạm Toán lớp...
+                    <div class="d-css-class-detail2-bar2 col-md-12 col-sm-6 col-xs-12">
+                        <div class="infor-detail-v2 d-class-detail">
+                            <p class="blue  d-detail-class">
+                                Tìm gia sư sinh viên sư phạm Toán lớp 3 và 5
                             </p>
                         </div>
                         <div class="detail4-v3 d-css-type">
                             <span class="orange"><img src="../asset/images/money (2) 1.png" alt=""> 130.000
                                 vnđ/giờ</span>
                         </div>
-                        <div class="infor-detail-class1 d-css-type">
+                        <div class="d-css-type">
                             <p><img src="../asset/images/pin 1.png" alt="">
                                 Địa chỉ: Hà Nội</p>
                         </div>
@@ -302,12 +321,34 @@
                             <img src="../asset/images/Miễn phí.png" alt="">
                         </div>
                     </div>
-                    <div class="forget-password-v2-5">
+                    <div class="forget-password-v2-5 d-class-detail-signup">
                         <a href="#">Đăng ký ngay</a>
                     </div>
                 </div>
             </div>
+
+            <div class="d-class-detail2-v3">
+                <div class="received-content1">
+                    <p>Từ khóa liên quan</p>
+                </div>
+                <div class="invited-teach2-v2">
+                    <hr class="hr1">
+                    <hr class="hr2">
+                </div>
+                <div class="d-class-detail-keyword">
+                    <div class="d-class-detail-key">
+                        <a href="#">Việc làm gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-class-detail-key">
+                        <a>Việc làm gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-class-detail-key">
+                        <a>Việc làm gia sư môn toán lớp 1</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
     <?php include_once "../inc_footer.php"; ?>
 </body>
