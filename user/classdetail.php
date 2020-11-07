@@ -291,7 +291,7 @@
                         <hr class="hr2 hr3">
                     </div>
                     <div class="d-css-class-detail2-bar2 col-md-12 col-sm-6 col-xs-12">
-                        <div class="infor-detail-v2 d-class-detail">
+                        <div class="infor-detail-v2 d-class-detail1">
                             <p class="blue  d-detail-class">
                                 Tìm gia sư sinh viên sư phạm Toán lớp 3 và 5
                             </p>
@@ -335,14 +335,14 @@
                     <hr class="hr1">
                     <hr class="hr2">
                 </div>
-                <div class="d-class-detail-keyword">
-                    <div class="d-class-detail-key">
+                <div class="d-class-detail-keyword row">
+                    <div class="d-class-detail-key col-md-4 col-sm-5 col-xs-12">
                         <a href="#">Việc làm gia sư môn toán lớp 1</a>
                     </div>
-                    <div class="d-class-detail-key">
+                    <div class="d-class-detail-key col-md-4 col-sm-5 col-xs-12">
                         <a>Việc làm gia sư môn toán lớp 1</a>
                     </div>
-                    <div class="d-class-detail-key">
+                    <div class="d-class-detail-key col-md-4 col-sm-5 col-xs-12">
                         <a>Việc làm gia sư môn toán lớp 1</a>
                     </div>
                 </div>

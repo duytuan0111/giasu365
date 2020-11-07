@@ -643,7 +643,9 @@ a:hover {
 .red {
   color: red;
 }
-
+.yellow{
+  color:  #F8971C;
+}
 .green {
   color: #29c667 !important;
 }
@@ -1123,7 +1125,7 @@ li a {
 
 #menu-bottom {
   background-image: url("../images/Group 2352.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: inherit;
   height: 500px;
@@ -1226,6 +1228,7 @@ li a {
 .t-recomend-search {
   margin-top: 14px;
   text-align: center;
+  display: inline-block;
 }
 .t-recomend-search a {
   margin-right: 15px;
@@ -1520,7 +1523,9 @@ li a {
   text-decoration: none;
   margin-left: 10px;
 }
-
+.d-img{
+  display: none;
+}
 /* === END  === */
 /* ====== TABLET ====== */
 @media only screen and (max-width: 1024px) {
@@ -1596,6 +1601,83 @@ li a {
 
   .forget-password2-v1 {
     margin-left: 230px;
+  }
+  #menu-header {
+    margin-bottom: 14px;
+  }
+  #menu-bottom {
+    height: 313px;
+  }
+  #menu-bottom h1 {
+    font-size: 20px;
+    padding-left: 319px;
+  }
+  #menu-bottom h3 {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 315px;
+  }
+  .t-dowload-app {
+    margin-top: 0;
+    padding-left: 177px;
+  }
+  .d-home{
+    margin-top: 55px;
+  }
+  .d-search-input{
+    display: none;
+  }
+  .t-input-search {
+    margin-left: 0;
+    display: inline-table;
+  }
+  .back-home {
+    padding: 0 36px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .d-header{
+    border-bottom: 1px solid  #BFD8E1;
+    padding: 26px 18px 18px 18px;
+  }
+  .ul-menu img{
+    width: 64px;
+    height: 29px;
+    float: left;
+    margin-top: -16PX;
+  }
+  .ul-menu span{
+    padding-left: 86px;
+  }
+  span.d-ul-menu{
+    padding-left: 84px;
+  }
+  .d-ul-menu a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color:  #185DA0;
+  }
+  span.d-ul-menu2{
+    float:right;
+    background: #2169A8;
+    border-radius: 40px;
+    width: 114px;
+    height: 26px;
+    text-align: center;
+  }
+  .d-ul-menu2 a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .d-nav-modal2 a{
+    text-decoration-line:underline ;
   }
 }
 
@@ -1686,10 +1768,45 @@ li a {
   .forget-password2 {
     margin: 28px 0 266px 0;
   }
+  #menu-header {
+    margin-right: 0;
+  }
+  #menu-bottom h1 {
+    padding-left: 0;
+    font-size: 18px;
+  }
+  #menu-bottom h3 {
+    padding-left: 0;
+    font-size: 15px;
+  }
+  #menu-bottom {
+    height: 354px;
+    margin-right: 0;
+    background-image: none;
+  }
+  .t-dowload-app {
+    padding-left: 0;
+    margin: 0;
+  }
+  .t-dowload-app img{
+    width: 154px;
+    height: 36px;
+  }
+  .d-home {
+    margin-top: 0;
+  }
+  .d-img{
+    display: block;
+  }
+  .d-img img{
+    width: 375px;
+    height: 215px;
+  }
 }
 /* ======  END MOBILE  ====== */
 /* ====    END PAGE QUÊN PASS  ==== */
 /* ===== GIỚI THIỆU GIA SƯ ==== */
+
 #egister {
   width: 100%;
   height: auto;
@@ -2676,6 +2793,30 @@ li a {
     width: 532px;
     height: 78px;
   }
+  .nav-teacher4 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 21px;
+  }
+  .d-modal3{
+    padding: 25px 0;
+    border-bottom: none !important;
+  }
+  .d-btn-register{
+    padding: 5px 40px;
+    margin: 0 28px;
+  }
+  .d-nav-modal1{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin-top: 35px;
+  }
+  .d-nav-modal2-v1 p{
+    margin: 6px 0 !important;
+  }
 }
 
 /* ======= END TAPLET ======= */
@@ -3125,6 +3266,9 @@ li a {
 
 .nav-teacher3 a:hover {
   color: #f8971c !important;
+}
+.nav-teacher3 a:hover, .nav-teacher3 a:focus{
+  background-color: #FFFFFF !important;
 }
 
 .nav-teacher3-v1 {
@@ -5503,203 +5647,7 @@ li a {
     border-radius: 5px;
   }
 }
-/* ======= TABLET ======== */
-@media only screen and (max-width: 1024px) {
-  .modal-dialog1 {
-    margin: 189px 158px 0 158px !important;
-  }
-  .modal-header-logout {
-    padding: 0 !important;
-    width: 93%;
-    margin: 22px 0 0 23px;
-  }
-  .modal-header1 .close {
-    margin: 4px -19px;
-  }
-  .modal-header-logout .close {
-    color: #a9a9a9;
-    margin: 4px 8px;
-  }
-  .modal-infor {
-    margin-top: 27px;
-    margin-left: 26px;
-  }
-}
-/* ===== END TABLET ===== */
-/* ===== MOBILE ===== */
-@media only screen and (max-width: 480px) {
-  .modal-dialog1 {
-    margin: 189px 17px 0 18px !important;
-  }
-  .modal-content1 {
-    width: 340px;
-    height: 193px;
-  }
-
-  .modal-body-infor {
-    font-size: 15px;
-  }
-
-  .modal-infor {
-    margin-left: 16px;
-  }
-}
-/* ======= END MOBILE ======= */
-/* ==== LỚP ĐÃ LƯU ===== */
-.saved-class {
-  width: 100%;
-  height: auto;
-  display: flex;
-}
-
-.saved-class1 {
-  width: 100%;
-  height: auto;
-  padding: 0 55px 0 51px;
-}
-
-.saved-class2-v2 {
-  width: 128px;
-  height: 28px;
-  background: #f8971c;
-  border-radius: 100px;
-  display: inline-block;
-}
-.saved-class3 {
-  display: none;
-}
-
-/* ===== TABLET ===== */
-@media only screen and (max-width: 1024px) {
-  .saved-class1 {
-    padding: 28px 23px 0 26px;
-  }
-
-  .saved-class3 {
-    display: inline-block;
-    margin-top: 38px;
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ededed;
-  }
-
-  #trash {
-    float: right;
-    position: relative;
-  }
-
-  .saved-class3-v1 {
-    width: 93%;
-    height: auto;
-    padding-left: 43px;
-    position: absolute;
-  }
-
-  .saved-class3-v1 p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-    color: #29c667;
-  }
-
-  .click4 {
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    position: relative;
-  }
-
-  .saved-class3-v2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-top: 10px;
-    padding-left: 60px;
-  }
-
-  .saved-class3-v2 i {
-    margin: 7px 10px;
-  }
-
-  .saved-class3-v2 p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #0f2e4b;
-  }
-
-  .saved-class3-v3 {
-    display: none;
-    width: 100%;
-    height: auto;
-    border-top: 0.5px dashed #838383;
-  }
-
-  .saved-class3-v3-1 {
-    width: 100%;
-    height: auto;
-    margin-top: 11px;
-  }
-
-  .saved-class3-v3-1a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1574d0;
-  }
-
-  .saved-class3-v3-1s p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #123658;
-  }
-
-  .saved-class3-v3-1s span {
-    font-family: Roboto;
-  }
-
-  .saved-class3-v3-2 {
-    width: 35%;
-    height: auto;
-    margin-top: 14px;
-  }
-
-  .saved-class3-v3-2a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #ff0000;
-  }
-  .saved-class3-v3-3 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-  }
-
-  .saved-class3-v3-3 p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-  .show4 {
-    display: flex;
-  }
-}
-/* ======= END TABLET ======= */
+/* === END TABLET === */
 /* ===== MOBILE ===== */
 @media only screen and (max-width: 480px) {
   .saved-class1 {
@@ -5762,7 +5710,6 @@ li a {
     text-align: left;
   }
 }
-
 /* ===== END MOBILE ===== */
 /* ===== CẬP NHẬT THÔNG TIN ===== */
 .update-information {
@@ -6971,10 +6918,12 @@ li a {
 .parent-detail {
   width: 100%;
   height: auto;
-  padding: 0 145px;
-  padding-bottom: 38px;
+  
 }
+.parent-detail-01{
+  padding: 0 145px 38px 145px;
 
+}
 .parent-detail1 {
   width: 100%;
   height: auto;
@@ -6986,7 +6935,7 @@ li a {
 }
 
 .black {
-  color: #06243e;
+  color: #06243e !important;
 }
 
 .parent-detail2 {
@@ -7317,104 +7266,83 @@ li a {
   .parent-detail {
     padding: 18px 26px;
   }
-
   .infor-detail {
     margin: 0 0 0 20px;
     display: block;
   }
-
   .infor-detail1 {
     margin-top: 0;
   }
-
   .infor-detail-v3 {
     display: flex;
     margin-left: -127px;
     margin-top: 15px;
     width: 100%;
   }
-
   .infor-detail-v3-1 {
     height: 29px;
     margin-right: 23px;
   }
-
   .infor-detail-v2 p {
     font-size: 15px;
   }
-
   .parent-detail1-img {
     width: 106px;
     height: 106px;
   }
-
   .parent-detail3-v1 {
     font-size: 15px;
     width: 100%;
   }
-
   .parent-detail4 {
     margin-top: 30px;
   }
-
   .parent-detail4-v1 {
     margin-top: 22px;
   }
-
   .parent-detail4-img {
     margin-top: 17px;
     margin-left: 15px;
   }
-
   .detail4-v2s {
     display: flex;
     margin-left: 15px;
     margin-top: 11px;
   }
-
   .detail4-v2,
   .parent-detail4-v3 {
     display: none;
   }
-
   .parent-detail4-v2 {
     margin-left: 12px;
   }
-
   .detail4-bonnus {
     display: flex;
     margin-top: 19px;
   }
-
   .detail4-v3s {
     margin-left: 25px;
     margin-top: -4px;
   }
-
   .detail4-v1 {
     margin-top: 0px;
     margin-right: -13px;
   }
-
   .icon-input-detail,
   .icon-input-detail1 {
     left: 39px;
     top: 10px;
   }
-
   .icon-input-detail1 {
     margin-top: 50px;
   }
-
   #btn4 {
     display: block;
     background: #f8971c;
   }
-
   .detail4-bonnus-1 {
     display: none;
   }
-
   .detail-bonus {
     display: none;
   }
@@ -7592,11 +7520,11 @@ li a {
   display: inline-block;
   margin: 0;
   font-family: UTM Avo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #466eb6;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #466eb6;
 }
 .infor-detail-padding p {
   margin-right: 30px;
@@ -7781,16 +7709,17 @@ li a {
 .d-class-detail-keyword {
   width: 100%;
   height: auto;
-  display: flex;
   text-align: center;
   margin: 39px 0 0 0;
+  display: inline-block;
 }
 .d-class-detail-key {
-  width: 100%;
   height: auto;
   border-radius: 100px;
   background: #f9fafb;
   margin-right: 10px;
+  margin-bottom: 9px;
+  padding: 0 23px;
 }
 .d-class-detail-key a {
   font-family: Roboto;
@@ -7814,14 +7743,17 @@ li a {
 .d-class-detail {
   display: none;
 }
-.d-infor-class-p1{
+.d-infor-class-p1 {
   display: none;
 }
-.d-infor-class-detail{
+.d-infor-class-detail {
   line-height: 36px;
 }
-.d-none{
+.d-none {
   display: none;
+}
+.d-class-detail1 {
+  margin: 0;
 }
 /* === tablet chi tiết lớp học === */
 @media only screen and (max-width: 1024px) {
@@ -7917,13 +7849,14 @@ li a {
   .d-class-detail-signup {
     width: 26%;
     margin: 26px 0 0 255px;
-  }.d-class-detail2-v3 {
+  }
+  .d-class-detail2-v3 {
     width: 100%;
     margin-top: 38px;
     padding-bottom: 50px;
   }
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width: 480px) {
   .d-css-class-detail {
     width: 97%;
   }
@@ -7935,20 +7868,20 @@ li a {
     margin-left: -111px;
     padding-top: 10px;
   }
-  .d-class-detail{
+  .d-class-detail {
     display: none;
   }
   .class-detail-v2 {
     width: 100%;
   }
-  .infor-class p{
+  .infor-class p {
     font-size: 18px;
   }
   .infor-detail-class1 {
     margin-left: 0;
     width: 86%;
   }
-  .d-detail-left{
+  .d-detail-left {
     float: left;
     margin-top: 0 !important;
   }
@@ -7961,7 +7894,7 @@ li a {
   .class-detail-v1 {
     width: 68%;
   }
-  .d-none{
+  .d-none {
     display: flex;
     margin-top: 27px;
   }
@@ -7980,13 +7913,13 @@ li a {
     width: 50%;
     margin: 12px 0 0 80px;
   }
-  .d-class-detail-p{
+  .d-class-detail-p {
     margin: 0;
   }
-  .d-detail-class{
+  .d-detail-class {
     font-size: 16px !important;
   }
-  .d-infor-class-p1{
+  .d-infor-class-p1 {
     display: block;
   }
   .d-css-class-detail-signin {
@@ -7996,14 +7929,285 @@ li a {
   }
   .d-class-detail-keyword {
     margin-top: 35px;
-    display: block;
+    margin-left: 0 !important;
   }
   .d-class-detail-key {
     width: 79%;
-    margin-bottom: 8px;
     display: inline-block;
   }
   .d-css-class-detail-table {
     margin-right: 0 !important;
+  }
+}
+/* === Danh mục lớp học === */
+.d-class-catelog {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: UTM Avo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #185da0;
+}
+.d-class-catelog-banner{
+  padding: 0 145px 94px 145px;
+}
+.d-class-catelog1 {
+  background-image: url("../images/Group 2604.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  margin-top: 52px;
+  display: flex;
+  background-origin: content-box;
+}
+.d-catelog1-img {
+  display: inline-block;
+  margin: -4px 0 0 -2px;
+  position: absolute;
+}
+.d-catelog1-img1 {
+  display: inline-block;
+  position: relative;
+}
+.d-catelog1-signin {
+  display: block;
+  margin-left: 30px;
+  text-align: center;
+}
+.d-catelog1-signin-img {
+  width: 425px;
+  height: 56px;
+  margin-top: 42px;
+}
+.d-catelog1-p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-top: 19px;
+}
+.d-catelog1-signup {
+  width: 50%;
+  height: 51px;
+  text-align: center;
+  background: #ffc700;
+  border: 1.5px solid rgba(255, 255, 255, 0.77);
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin: 30px 0;
+  display: inline-block;
+}
+.d-catelog1-signup a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.d-catelog1-img2 {
+  margin: 13px 30px;
+}
+.d-catelog1-img2 img {
+  width: 264px;
+  height: 260px;
+}
+.d-class-catelog2 {
+  width: 100%;
+  height: auto;
+  margin-top: 74px;
+  display: inline-block;
+}
+.d-class-catelog2-v1,
+.d-class-catelog2-v2 {
+  background: #ffffff;
+  border: 0.5px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.d-class-catelog2-v2{
+  float: right !important;
+}
+.d-class-catelog-ver1{
+  display: inline-block;
+}
+.d-catelog-img2{
+  display: none;
+}
+/* === tablet danh mục lớp học === */
+@media only screen and (max-width:1024px){
+  .d-class-catelog1 {
+    background-size: 768px 323px;
+  }
+  .d-class-catelog-banner {
+    padding: 0 0 70px 0;
+  }
+  .d-catelog1-img img, .d-catelog1-img1 img{
+    width: 325px;
+    height: 323px;
+  }
+  .d-catelog1-signin {
+    margin-left: 0;
+  }
+  .d-catelog1-signin-img {
+    margin-top: 40px;
+    width: 370px;
+  }
+  .d-catelog1-signin-img img{
+    width: 357px;
+  }
+  .d-catelog-img2{
+    display: block;
+    float: right;
+    margin-top: 30px;
+  }
+  .d-catelog-img2 img{
+    display: block;
+    width:137px;
+    height: 135px;
+  }
+  .d-catelog1-p {
+    display: inline-block;
+    float: left;
+  }
+  .d-catelog1-img2 {
+    display: none;
+  }
+  .d-modal-content{
+    text-align: center;
+    background-image: url("../images/Rectangle\ 498 (1).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .d-modal-conent1{
+    padding: 0 50px;
+  }
+  .d-modal-header{
+    display: inline-block;
+  }
+  .d-modal-header .close{
+    opacity: 1;
+    color: #185DA0;
+  }
+  .d-input-city{
+    margin-top: 15px;
+    padding-left: 0 !important;
+  }
+  .d-input-icon{
+    background: #00B0ED;
+    margin-top: 15px;
+    box-shadow: 0px 0px 1px rgba(18, 54, 88, 0.18);
+    border-radius: 5px;
+    padding: 5px 0 !important;
+  }
+  .d-input-icon a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .d-modal-dialog{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  .d-icon-input, .d-icon-input2{
+    top: 10px;
+    position: absolute;
+    right: 17px;
+  }
+  .d-icon-input2{
+    right: 20px;
+  }
+  .d-modal-footer{
+      display: inline-block;
+      border: none;
+  }
+}
+/* == mobile danh mục lớp học == */
+@media only screen and (max-width:480px){
+  .d-class-catelog1 {
+    background-size: 376px 506px;
+    margin-top: 9px;
+  }
+  .d-class-catelog-banner {
+    padding: 0 0 23px 0;
+  }
+  .d-class-catelog-img{
+    position: absolute;
+    padding-top: 181px;
+  }
+  .d-catelog1-signin {
+    position: relative;
+    padding-bottom: 296px;
+  }
+  .d-catelog1-signin-img {
+    margin-top: 21px;
+  }
+  .d-catelog1-signup {
+    width: 55%;
+    height: 39px;
+    margin: 16px 0;
+  }
+  .d-catelog1-signup a {
+    font-size: 16px;
+    line-height: 33px;
+  }
+  .d-catelog1-signin-img img {
+    width: 300px;
+  }
+  .d-catelog-img2{
+    display: none;
+  }
+  .d-catelog1-p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    float: none;
+  }
+  .d-catelog1-img img{
+    width: 362px;
+    height: 306px;
+  }
+  .d-catelog1-img1 img {
+    width: 360px;
+    height: 298px;
+    padding-top: 10px;
+  }
+  .d-modal-dialog {
+    margin: 0;
+  }
+  .d-input-city {
+    padding-right: 0 !important;
+  }
+  .d-icon-input2 {
+    right: 4px;
+  }
+  .d-input-icon2{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+  .d-input-icon{
+    width: 100%;
+    margin-left: 18px;
+  }
+  .d-recomend-search{
+    display: none;
   }
 }

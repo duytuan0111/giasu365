@@ -11,14 +11,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
     <?php include_once "../inc_header.php"; ?>
-    <div class="parent-detail">
+    <div class="parent-detail parent-detail-01">
         <div class="parent-detail1">
             <p class="blue">Gia sư 365 / Tìm việc làm gia sư / <span class="black">Hoàng Duy</span></p>
         </div>
@@ -232,6 +229,9 @@
 
 </body>
 
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 <script>
 function clickFunction() {
     document.getElementById("infor-detail-v3-1").classList.toggle("click-color")
@@ -260,9 +260,6 @@ p4.onclick = function() {
 p5.onclick = function() {
     div.innerHTML = 'Đăng nhập để đề nghị dạy';
 };
-</script>
-<script language="javascript">
-
 </script>
 
 </html>

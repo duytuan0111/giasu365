@@ -12,7 +12,7 @@
             </div>
             <div class="header-search col-sm-4 col-xs-4">
 
-                <i class="fa fa-search" aria-hidden="true"></i>
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="modal fade" id="modal-id">
