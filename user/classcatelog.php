@@ -144,31 +144,16 @@
         </div>
     </div>
     <div class="d-class-catelog-banner">
-        <div class="d-class-catelog1">
-            <div class="d-class-catelog-img">
-                <div class="d-catelog1-img">
-                    <img src="../asset/images/Rectangle 556.png" alt="">
-                </div>
-                <div class="d-catelog1-img1">
-                    <img src="../asset/images/Rectangle 557.png" alt="">
+        <div class="col-md-6">
+            <div class="d-class-catelog-img col-md-6">
+                <div class="col-md-6">
+                    <img src="../asset/images/Frame 3.png" alt="">
                 </div>
             </div>
-            <div class="d-catelog1-signin">
-                <div class="d-catelog1-signin-img">
-                    <img src="../asset/images/Tìm việc làm gia sư.png" alt="">
-                </div>
-                <div class="d-catelog1-p">
-                    <p>Kết nối, lọc tìm kiếm - quản lý gia sư </p>
-                </div>
-                <div class="d-catelog1-signup">
-                    <a href="#">Đăng ký làm gia sư</a>
-                </div>
-                <div class="d-catelog-img2">
-                    <img src="../asset/images/Frame (1).png" alt="">
-                </div>
-            </div>
-            <div class="d-catelog1-img2">
-                <img src="../asset/images/Frame (1).png" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="">
+                <img src="../asset/images/Frame 3.png" alt="">
             </div>
         </div>
     </div>

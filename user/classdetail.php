@@ -15,7 +15,7 @@
 
 <body>
     <?php include_once "../header-parent.php"; ?>
-    <div class="parent-detail">
+    <div class="parent-detail parent-detail-01">
         <div class="parent-detail1">
             <p class="blue">Gia sư 365 / Tìm việc làm gia sư / <span class="black">Tìm gia sư lớp 5</span></p>
         </div>

@@ -54,8 +54,8 @@ table td {
   border: 3px solid #ffffff !important;
 }
 
-table td:hover {
-  /* background-color: #50bff0; */
+table td.text-center:hover {
+  background-color: #50bff0;
 }
 
 textarea {
@@ -64,6 +64,8 @@ textarea {
   border: 0.5px solid #d3d3d3;
   box-sizing: border-box;
   border-radius: 3px;
+  resize: none;
+  outline: none;
 }
 
 li {
@@ -643,8 +645,8 @@ a:hover {
 .red {
   color: red;
 }
-.yellow{
-  color:  #F8971C;
+.yellow {
+  color: #f8971c;
 }
 .green {
   color: #29c667 !important;
@@ -1130,7 +1132,9 @@ li a {
   background-attachment: inherit;
   height: 500px;
 }
-
+.d-menu{
+  padding-left: 155px;
+}
 .ul-menu li {
   display: inline;
   float: left;
@@ -1159,7 +1163,8 @@ li a {
   color: #0c214a;
 }
 
-#menu-bottom h1 {
+#menu-bottom h1,
+#menu-bottom1 h1{
   text-align: center;
   font-family: UTM Avo;
   font-style: normal;
@@ -1168,6 +1173,9 @@ li a {
   line-height: 24px;
   text-transform: uppercase;
   color: #f89823;
+}
+.d-h1{
+  padding-right: 243px;
 }
 
 #menu-bottom h3 {
@@ -1180,7 +1188,10 @@ li a {
   letter-spacing: 0.08em;
   color: #2169a8;
 }
-
+.d-search-input {
+  display: inline-block;
+  text-align: center;
+}
 .t-input-search {
   width: 757px;
   height: 46px;
@@ -1199,6 +1210,7 @@ li a {
 }
 
 .t-input-search select {
+  width: 100%;
   height: 46px;
   border-radius: 0px;
   border-top: none;
@@ -1210,6 +1222,19 @@ li a {
 }
 .t-input-city {
   padding: 0px !important;
+}
+.t-input-city input{
+  border-left: 0.5px solid #E2E2E2;
+}
+.t-input-city img{
+  position: absolute;
+  top: 21px;
+  right: 16px;
+}
+.select2-container--default .select2-selection--single {
+  border: none !important;
+  border-left:0.5px solid #e2e2e2e2 !important;
+  height: 46px !important;
 }
 .t-input-icon {
   background: #f8971c;
@@ -1224,6 +1249,7 @@ li a {
   margin-top: 79px;
   text-align: center;
   margin-left: 95px;
+  margin-right: 0 !important;
 }
 .t-recomend-search {
   margin-top: 14px;
@@ -1252,6 +1278,7 @@ li a {
   color: #185da0;
 }
 .t-main-title {
+  margin-top: 61px;
   position: relative;
 }
 .t-yellow-under {
@@ -1523,12 +1550,16 @@ li a {
   text-decoration: none;
   margin-left: 10px;
 }
-.d-img{
+.d-img {
   display: none;
 }
 /* === END  === */
 /* ====== TABLET ====== */
 @media only screen and (max-width: 1024px) {
+  
+.d-menu{
+  display: none;
+  }
   #forget {
     display: inline-block;
   }
@@ -1605,7 +1636,8 @@ li a {
   #menu-header {
     margin-bottom: 14px;
   }
-  #menu-bottom {
+  #menu-bottom,
+  #menu-bottom1 {
     height: 313px;
   }
   #menu-bottom h1 {
@@ -1621,10 +1653,10 @@ li a {
     margin-top: 0;
     padding-left: 177px;
   }
-  .d-home{
+  .d-home {
     margin-top: 55px;
   }
-  .d-search-input{
+  .d-search-input {
     display: none;
   }
   .t-input-search {
@@ -1636,48 +1668,48 @@ li a {
     font-weight: normal;
     font-size: 14px;
   }
-  .d-header{
-    border-bottom: 1px solid  #BFD8E1;
+  .d-header {
+    border-bottom: 1px solid #bfd8e1;
     padding: 26px 18px 18px 18px;
   }
-  .ul-menu img{
+  .ul-menu img {
     width: 64px;
     height: 29px;
     float: left;
-    margin-top: -16PX;
+    margin-top: -16px;
   }
-  .ul-menu span{
+  .ul-menu span {
     padding-left: 86px;
   }
-  span.d-ul-menu{
+  span.d-ul-menu {
     padding-left: 84px;
   }
-  .d-ul-menu a{
+  .d-ul-menu a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color:  #185DA0;
+    color: #185da0;
   }
-  span.d-ul-menu2{
-    float:right;
-    background: #2169A8;
+  span.d-ul-menu2 {
+    float: right;
+    background: #2169a8;
     border-radius: 40px;
     width: 114px;
     height: 26px;
     text-align: center;
   }
-  .d-ul-menu2 a{
+  .d-ul-menu2 a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  .d-nav-modal2 a{
-    text-decoration-line:underline ;
+  .d-nav-modal2 a {
+    text-decoration-line: underline;
   }
 }
 
@@ -1779,7 +1811,8 @@ li a {
     padding-left: 0;
     font-size: 15px;
   }
-  #menu-bottom {
+  #menu-bottom,
+  #menu-bottom1{
     height: 354px;
     margin-right: 0;
     background-image: none;
@@ -1788,17 +1821,17 @@ li a {
     padding-left: 0;
     margin: 0;
   }
-  .t-dowload-app img{
+  .t-dowload-app img {
     width: 154px;
     height: 36px;
   }
   .d-home {
     margin-top: 0;
   }
-  .d-img{
+  .d-img {
     display: block;
   }
-  .d-img img{
+  .d-img img {
     width: 375px;
     height: 215px;
   }
@@ -2799,22 +2832,22 @@ li a {
     display: block;
     margin-left: 21px;
   }
-  .d-modal3{
+  .d-modal3 {
     padding: 25px 0;
     border-bottom: none !important;
   }
-  .d-btn-register{
+  .d-btn-register {
     padding: 5px 40px;
     margin: 0 28px;
   }
-  .d-nav-modal1{
+  .d-nav-modal1 {
     width: 100%;
     height: auto;
     display: inline-block;
     text-align: center;
     margin-top: 35px;
   }
-  .d-nav-modal2-v1 p{
+  .d-nav-modal2-v1 p {
     margin: 6px 0 !important;
   }
 }
@@ -3142,7 +3175,7 @@ li a {
 }
 
 .home {
-  padding: 46px 57px 78px 78px;
+  padding: 46px 57px 20px 78px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -3267,8 +3300,9 @@ li a {
 .nav-teacher3 a:hover {
   color: #f8971c !important;
 }
-.nav-teacher3 a:hover, .nav-teacher3 a:focus{
-  background-color: #FFFFFF !important;
+.nav-teacher3 a:hover,
+.nav-teacher3 a:focus {
+  background-color: #ffffff !important;
 }
 
 .nav-teacher3-v1 {
@@ -5467,9 +5501,9 @@ li a {
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
-  color: #3797dd;
+  color: #3797dd !important;
   background: #ffffff;
-  border: 1px solid #3797dd;
+  border: 1px solid #3797dd !important;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -5541,7 +5575,7 @@ li a {
   color: #ffffff;
 }
 .gray {
-  color: #949494;
+  color: #949494 !important;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .saved-class3 {
@@ -6918,11 +6952,9 @@ li a {
 .parent-detail {
   width: 100%;
   height: auto;
-  
 }
-.parent-detail-01{
-  padding: 0 145px 38px 145px;
-
+.parent-detail-01 {
+  padding: 14px 145px 38px 145px;
 }
 .parent-detail1 {
   width: 100%;
@@ -7643,6 +7675,9 @@ li a {
   color: #1c3d5d;
   padding-right: 42px;
 }
+.d-css-class-detail-text p{
+  color: #7e7e7e;
+}
 .d-css-class-detail-table {
   margin-top: 51px;
 }
@@ -7952,7 +7987,7 @@ li a {
   letter-spacing: 0.03em;
   color: #185da0;
 }
-.d-class-catelog-banner{
+.d-class-catelog-banner {
   padding: 0 145px 94px 145px;
 }
 .d-class-catelog1 {
@@ -8037,24 +8072,25 @@ li a {
   box-sizing: border-box;
   border-radius: 5px;
 }
-.d-class-catelog2-v2{
+.d-class-catelog2-v2 {
   float: right !important;
 }
-.d-class-catelog-ver1{
+.d-class-catelog-ver1 {
   display: inline-block;
 }
-.d-catelog-img2{
+.d-catelog-img2 {
   display: none;
 }
 /* === tablet danh mục lớp học === */
-@media only screen and (max-width:1024px){
+@media only screen and (max-width: 1024px) {
   .d-class-catelog1 {
     background-size: 768px 323px;
   }
   .d-class-catelog-banner {
     padding: 0 0 70px 0;
   }
-  .d-catelog1-img img, .d-catelog1-img1 img{
+  .d-catelog1-img img,
+  .d-catelog1-img1 img {
     width: 325px;
     height: 323px;
   }
@@ -8065,17 +8101,17 @@ li a {
     margin-top: 40px;
     width: 370px;
   }
-  .d-catelog1-signin-img img{
+  .d-catelog1-signin-img img {
     width: 357px;
   }
-  .d-catelog-img2{
+  .d-catelog-img2 {
     display: block;
     float: right;
     margin-top: 30px;
   }
-  .d-catelog-img2 img{
+  .d-catelog-img2 img {
     display: block;
-    width:137px;
+    width: 137px;
     height: 135px;
   }
   .d-catelog1-p {
@@ -8085,62 +8121,68 @@ li a {
   .d-catelog1-img2 {
     display: none;
   }
-  .d-modal-content{
+  .d-modal-content {
     text-align: center;
     background-image: url("../images/Rectangle\ 498 (1).png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  .d-modal-conent1{
+  .d-modal-conent1 {
     padding: 0 50px;
   }
-  .d-modal-header{
+  .d-modal-header {
     display: inline-block;
   }
-  .d-modal-header .close{
+  .d-modal-header .close {
     opacity: 1;
-    color: #185DA0;
+    color: #185da0;
   }
-  .d-input-city{
+  .d-input-city {
     margin-top: 15px;
     padding-left: 0 !important;
   }
-  .d-input-icon{
-    background: #00B0ED;
+  .d-input-icon2{
+    display: inline-block;
+  }
+  .d-input-icon {
+    width: 100%;
+    background: #00b0ed;
     margin-top: 15px;
     box-shadow: 0px 0px 1px rgba(18, 54, 88, 0.18);
     border-radius: 5px;
-    padding: 5px 0 !important;
+    padding: 5px !important;
   }
-  .d-input-icon a{
+  .d-input-icon a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  .d-modal-dialog{
+  .d-modal-dialog {
     width: 100%;
     height: auto;
     margin-top: 0;
   }
-  .d-icon-input, .d-icon-input2{
+  .d-icon-input,
+  .d-icon-input2 {
     top: 10px;
     position: absolute;
     right: 17px;
   }
-  .d-icon-input2{
+  .d-icon-input2 {
     right: 20px;
   }
-  .d-modal-footer{
-      display: inline-block;
-      border: none;
+  .d-modal-footer {
+    display: inline-block;
+    border: none;
+    padding: 0 0 15px 0;
   }
 }
 /* == mobile danh mục lớp học == */
-@media only screen and (max-width:480px){
+@media only screen and (max-width: 480px) {
   .d-class-catelog1 {
     background-size: 376px 506px;
     margin-top: 9px;
@@ -8148,7 +8190,7 @@ li a {
   .d-class-catelog-banner {
     padding: 0 0 23px 0;
   }
-  .d-class-catelog-img{
+  .d-class-catelog-img {
     position: absolute;
     padding-top: 181px;
   }
@@ -8171,7 +8213,7 @@ li a {
   .d-catelog1-signin-img img {
     width: 300px;
   }
-  .d-catelog-img2{
+  .d-catelog-img2 {
     display: none;
   }
   .d-catelog1-p {
@@ -8180,7 +8222,7 @@ li a {
     margin: 0;
     float: none;
   }
-  .d-catelog1-img img{
+  .d-catelog1-img img {
     width: 362px;
     height: 306px;
   }
@@ -8198,16 +8240,436 @@ li a {
   .d-icon-input2 {
     right: 4px;
   }
-  .d-input-icon2{
+  .d-input-icon2 {
     display: inline-block;
     width: 50%;
     text-align: center;
   }
-  .d-input-icon{
+  .d-input-icon {
     width: 100%;
-    margin-left: 18px;
-  }
-  .d-recomend-search{
-    display: none;
   }
 }
+/* === end mobile danh mục lớp học === */
+/* == chi tiết gias sư == */
+
+.d-home-search{
+  width: 100%;
+  padding-left: 299px;
+}
+.d-home-search-input{
+  width: 100%;
+}
+.d-input-search3{
+  width: 1019px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.d-recomend-search{
+  width: 100%;
+  text-align: left;
+}
+.d-teacher-detail {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 72px;
+  padding-bottom: 28px;
+  border-bottom: 1px dashed #1574d0;
+}
+.d-teacher-detail-v1 {
+  border-bottom: none;
+}
+.d-teacher-detail-img {
+  height: auto;
+  float: left;
+  background: rgba(240, 242, 243, 0.4);
+  border-radius: 50%;
+}
+.d-teacher-detail-img img {
+  border-radius: 50%;
+  width: 155px;
+  height: 155px;
+}
+.d-infor-class1{
+  width: 75%;
+  float: left;
+}
+.d-detail4-v3 {
+  width: 15%;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #35bc6b;
+  text-align: center;
+}
+.d-teacher-detail-v2 {
+  margin-top: 0;
+}
+.d-infor-detail-teacher {
+  display: inline-block;
+  text-align: right;
+}
+.d-infor-detail1 {
+  display: inline-flex;
+  width: auto;
+  margin-top: 15px;
+}
+.d-top a {
+  margin-top: 6px;
+}
+.d-teacher-bar2{
+  display: flex;
+  margin-top: 27px;
+}
+.d-teacher-img{
+  width: 50%;
+  height: auto;
+}
+.d-teacher{
+  width: 100%;
+  height: auto;
+  margin-left: 23px;
+}
+.d-login-vote{
+  width: 25%;
+  height: 32px;
+  text-align: center;
+  background: #F8971C;
+  border-radius: 199px;
+  float: right;
+}
+.d-login-vote a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.d-login-vote a:hover,
+.d-teacher-signup a:hover,
+.d-login-vote a:focus,
+.d-teacher-signup a:focus {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+.d-cmt-vote{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 42px;
+}
+.d-cmt-vote1{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.d-cmt-vote-name{
+  padding-left:18px ;
+}
+.d-vote-name-p{
+  font-size: 16px;
+  color: #0F2040;
+  line-height: 24px;
+  margin: 0;
+}
+.d-vote-cmt-time{
+  font-size: 14px;
+  line-height: 24px;
+  color: #BBBBBB;
+  margin: 0 0 13px 0;
+}
+.d-vote-name-cmt{
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #0F2040;
+  margin: 0;
+}
+.d-cmt-vote2{
+  padding-left: 90px;
+}
+.d-cmt-vote3{
+  margin-top: 20px;
+  display: none;
+}
+.d-vote-cmt2{
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  color: #A0A0A0;
+  margin: 4px 0;
+}
+.d-vote-cmt2 i{
+  margin-left: 12px;
+}
+.d-vote{
+  background: #FDFDFD;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 42px;
+}
+.d-vote-img{
+  padding-top: 33px;
+}
+.d-seen-info{
+  display: none ;
+}
+.d-vote-hover{
+  color: #EDEDED;
+}
+.d-star{
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  direction: rtl;
+}
+.star{
+  font-style: initial;
+ color: #EEEEEE;
+ position: relative;
+ line-height: 32px;
+ display: inline-block;
+ transition: color 0.2s ease;
+ color: #ebebeb;
+}
+.star:before {
+  content: '\2605';
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+}
+.star:hover,
+.star.selected,
+.star:hover ~ .star,
+.star.selected ~ .star{
+  transition: color 0.8s ease;
+  color: #FFC700;
+}
+.d-text-vote{
+  width: 100%;
+  height: auto;
+  padding: 25px 26px;
+}
+.d-text-vote textarea{
+  border: 0.2px solid #A0B0B0;
+  overflow: hidden !important;
+}
+.d-voter{
+  display: inline-block;
+  float: none;
+  margin-bottom: 24px;
+}
+.d-your-vote p{
+  font-size: 17px;
+  line-height: 24px;
+  color: #1574D0;
+  padding-left: 58px;
+}
+.d-css-teacher-detail{
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+.d-css-detail-signup-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #185DA0;
+  margin-top: 23px;
+}
+.d-teacher-detail-signin{
+  background-image: url("../images/Group 2874.png");
+  background-repeat: no-repeat;
+  background-size: 340px 471px;
+  width: 340px;
+  height: 471px;
+  margin-top: 35px;
+}
+.d-teacher-signup{
+  width: 70%;
+  height: 47px;
+  margin: 16px 50px 0 50px;
+  background: #185DA0;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.d-teacher-signup a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 41px;
+}
+.d-span-teacher{
+  display: none;
+}
+.d-login-vote-2{
+  display: none;
+}
+/* === tablet chi tiết gia sư === */
+@media only screen and (max-width: 1024px){
+  #menu-bottom1 {
+    display: none;
+  }
+  .d-teacher-detail {
+    margin-top: 44px;
+  }
+  .d-teacher-detail-v1 {
+    width: 73%;
+  }
+  .d-teacher-detail-v2 {
+    width: 73%;
+  }
+  .d-infor-detail-teacher {
+    width: 70%;
+    display: inline-flex;
+    position: absolute;
+    padding-top: 90px;
+    margin-left: -162px;
+  }
+  .d-detail4-v3 {
+    width: 30%;
+    padding: 0;
+    text-align: left;
+  }
+  .d-info-detail-teacher{
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .d-infor-detail1 {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 47px;
+  }
+  .d-teacher-img {
+    width: 25%;
+  }
+  .d-teacher {
+    width: 75%;
+  }
+  .d-your-vote p {
+    padding-left: 0;
+  }
+  .d-teacher-detail-signin {
+    background-image: url('../images/Group 2988.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 716px;
+    height: 295px;
+    margin-top: 40px;
+  }
+  .d-detail{
+    padding: 18px 11px;
+  }
+  .d-css-banner-detail img{
+    margin: 10px;
+  }
+  .d-css-teacher-detail {
+    width: 50%;
+    float: right;
+    padding-right: 37px;
+    margin-top: -25px;
+  }
+  .d-banner-detail{
+    float: right;
+  }
+  .d-banner-detail-text{
+    float: right;
+  }
+  .d-banner-detail-text p{
+    width: 290px;
+    height: 52px;
+    margin-top: 18px;
+    margin-right: 14px;
+  }
+  .d-teacher-signup{
+    width: 37%;
+    float: right;
+  }
+}
+/* === mobile chi tiết gia sư === */
+@media only screen and (max-width:480px){
+  .d-teacher-detail-img img {
+    width: 93px;
+    height: 93px;
+  }
+  .d-span-star{
+    display: block;
+  }
+  .d-span-teacher{
+    display: block;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 9px;
+  }
+  .d-none-teacher{
+    margin-left: -102px;
+  }
+  .d-infor-class1 {
+    padding: 0;
+  }
+  .d-infor-class1 p{
+    margin-left: -9px;
+  }
+  .d-teacher-detail-v2 {
+    width: 98%;
+  }
+  .d-teacher-detail-v1 {
+    width: 70%;
+  }
+  .d-teacher-detail-signin {
+    background-image: url('../images/Group 2874.png');
+    background-repeat: no-repeat;
+    background-size: 350px 513px;
+    width: 350px;
+    height: 513px;
+    margin-top: 33px;
+  }
+  .d-css-teacher-detail {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+    margin-top: 0;
+  }
+  .d-banner-detail,
+  .d-banner-detail-text {
+    float: none;
+  }
+  .d-banner-detail-text p {
+    width: 290px;
+    height: 52px;
+    margin: 0 0 0 31px;
+  }
+  .d-teacher-signup {
+    width: 70%;
+    float: none;
+  }
+  .d-css-teacher-detail1{
+    width: 90%;
+  }
+  .d-login-vote {
+    width: 50%;
+  }
+  .d-vote-pc{
+    display: none;
+  }
+  .d-login-vote-2{
+    display: block;
+    margin-top: 35px;
+    float: none;
+    margin-left: 90px;
+  }
+}
+/* === end chi tiết gia sư === */
+/* ==== tìm gia sư theo môn ==== */
