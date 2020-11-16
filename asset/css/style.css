@@ -8673,3 +8673,371 @@ li a {
 }
 /* === end chi tiết gia sư === */
 /* ==== tìm gia sư theo môn ==== */
+.d-main-subject{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.d-main-title{
+  margin-top: 46px;
+  position: relative;
+  display: inline-block;
+}
+.d-yellow{
+  width: 296px;
+  left: 13px;
+}
+.d-detail-teacher{
+  width: 100%;
+  text-align: center;
+  padding: 0 69px 0 135px;
+}
+.d-detail-teacher,
+.d-detail-teacher1{
+  display: inline-block;
+}
+.d-detail-teacher1{
+  width: 21%;
+  background: #FFFFFF;
+  border: 0.5px solid #E1E1E1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 14px 18px;
+  float: left;
+}
+.d-detail-teacher2{
+  width: 100%;
+}
+.d-detail-teacher-img{
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  margin-top: 14px;
+}
+.d-name{
+  margin-bottom: 0;
+  margin-top:16px ;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #185DA0;
+}
+.d-name-subject{
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #162A3D;
+}
+.d-name-address{
+  margin-top: 12px;
+  font-weight: normal;
+  color: #1F2F3E;
+}
+.d-vnd{
+  margin-top: 12px;
+  color: #FF5C00;
+}
+.d-name-invited{
+  width: 100%;
+  height: auto;
+  margin-top: 29px;
+  margin-bottom: 24px;
+  display: flex;
+}
+.d-invited{
+  width: 103px;
+  height: 29px;
+  margin-left: 10px;
+  background: #185DA0;
+  border-radius: 100px;
+}
+.d-invited-a{
+  color: #FFFFFF;
+  line-height: 27px;
+}
+.d-invited-p{
+  width: 103px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 0.6px solid #185DA0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-left: 7px;
+}
+.d-save{
+  margin: 0;
+  line-height: 27px;
+}
+.d-yellow-key{
+  left: 14px;
+  width: 190px;
+}
+.d-teacher-key{
+  background: #F9FAFB;
+  border-radius: 100px;
+  width: auto;
+  height: 36px;
+  margin: 10px;
+}
+.d-name-key{
+  color: #123658;
+  font-weight: normal;
+  line-height: 36px;
+}
+.d-detail-teacher-key{
+  padding: 0 0 0 163px;
+}
+.d-banner{
+  margin-top: 45px;
+  display: inline-flex;
+  padding: 0 0 50px 180px;
+}
+.d-banner-v1{
+  background-image: url("../images/Group 2878.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 557px;
+  height: 230px;
+}
+.d-banner-v1s{
+  float: right;
+}
+.d-banner-img{
+  margin-top: 23px;
+  margin-right: 19px;
+}
+.d-banner-p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+
+}
+.d-banner-p1{
+  margin: 21px 0 0 17px;
+}
+.d-banner-p2{
+  margin: 8px 0 0 17px;
+}
+.d-banner-p3{
+  width: 195px;
+  height: 72px;
+  margin-top: 22px;
+  margin-bottom: 0;
+}
+.d-banner-search,
+.d-banner-search2{
+  width: 55%;
+  height: 33px;
+  background: #FF5C00;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 19px;
+}
+.d-banner-a{ 
+  font-family: UTM Avo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.d-banner-a:hover,
+.d-banner-a:focus{
+  color: #ffffff;
+}
+.d-banner-v2{
+  width: 100%;
+  margin-left: 37px;
+  background-image: url("../images/Group 2879.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 557px;
+  height: 230px;
+}
+.d-banner-v2s{
+  margin-top: 25px;
+  margin-left: 18px;
+}
+.d-banner-search2{
+  width: 35%;
+  margin: 22px 0 0 0;
+  background: #FFFFFF;
+  border: 1px dashed #185DA0;
+}
+.d-banner-a2{
+  color: #F8971C;
+}
+.d-banner-a2:hover,
+.d-banner-a2:focus{
+  color: #f8971c;
+}
+/* === tablet tìm gia sư danh mục === */
+@media only screen and (max-width: 1024px){
+  .d-detail-teacher {
+    padding: 0;
+  }
+  .d-detail-teacher1 {
+    width: 30%;
+    margin: 10px 11px;
+  }
+  .d-detail-teacher-img {
+    width: 88px;
+    height: 88px;
+  }
+  .d-name-subject {
+    font-size: 14px;
+  }
+  .d-invited {
+    margin-left: 0;
+  }
+  .d-invited,
+  .d-invited-p {
+    width: 100px;
+    height: 26px;
+  }
+  .d-detail-teacher-key {
+    padding: 0 0 0 70px;
+  }
+  .d-banner {
+    margin-top: 69px;
+    display: inline-block;
+    padding: 0 0 0 0;
+  }
+  .d-banner-v1,
+  .d-banner-v2{
+    width: 737px;
+    height: 267px;
+  }
+  .d-banner-v2{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .d-banner-img {
+    width: 360px;
+    height: 24px;
+  }
+  .d-banner-p1 {
+    margin: 28px 0 0 17px;
+  }
+  .d-banner-p2 {
+    margin: 17px 0 0 17px;
+  }
+  .d-banner-search,
+  .d-banner-search2 {
+    margin-top: 25px;
+  }
+  .d-banner-v2s {
+    margin-top: 30px;
+  }
+  .d-banner-v2s {
+    margin-left: 18px;
+    display: inline-block;
+  }
+  .d-banner-img1{
+    width: 261px;
+  }
+  .d-banner-p3 {
+    width: 229px;
+    height: 90px;
+    margin-top: 22px;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .d-banner-search2 {
+    width: 76%;
+  }
+}
+/* == mobile tìm gia sư danh mục gia sư === */
+@media only screen and (max-width: 480px){
+  .d-detail-teacher {
+    padding: 0 29px 0px 42px;
+  }
+  .d-detail-teacher1 {
+    width: 100%;
+    margin: 10px 0;
+  } 
+  .d-invited {
+    margin-left: 33px;
+  }
+  .d-detail-teacher-key {
+    padding: 0;
+  }
+  .d-teacher-key {
+    margin: 4px;
+  }
+  .t-h1-inline {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .d-yellow-key {
+    width: 170px;
+  }
+  
+  .d-banner-v1,
+  .d-banner-v2 {
+    width: 375px;
+    height: 160px;
+  }
+  .d-banner-v1s {
+    margin-right: 10px;
+  }
+  .d-banner-img {
+    width: 192px;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+  .d-banner-p {
+    font-size: 12px;
+  }
+  .d-banner-p1 {
+    margin: 6px 0 0 0;
+  }
+  .d-banner-p2 {
+    margin: 2px 0 0 0;
+  }
+  .search2 {
+    margin-top: 4px;
+  }
+  .d-banner-search, .d-banner-search2 {
+    margin-top: 4px;
+    width: 81%;
+    margin-left: 0;
+    height: 25px;
+  }
+  .d-banner-v2 {
+    margin-top: 12px;
+  }
+  .d-banner-img1 {
+    width: 149px;
+  }
+  .d-banner-v2s {
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  .d-banner-p3 {
+    width: 141px;
+    height: 60px;
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .d-banner-search2 {
+    margin-top: 23px;
+    width: 137px;
+  }
+  .d-banner-a {
+    font-size: 14px;
+  }
+  .d-banner-a2 {
+    font-size: 13px;
+  }
+}

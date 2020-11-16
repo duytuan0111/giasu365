@@ -147,13 +147,235 @@
                 </div>
             </div>
         </div>
-        <div class="parent-detail parent-detail-01 d-detail ">
+        <div class="parent-detail parent-detail-01 d-detail">
             <div class="parent-detail1">
                 <p class="blue">Gia sư 365 / Tìm gia sư / <span class="black">Nguyễn Thanh Huyền</span></p>
             </div>
-            <div class="d-teacher-detail">
-                <div class="d-teacher-detail-img">
-                    <img src="../asset/images/Group 2389.png" alt="">
+            <div class="d-main-subject">
+                <div class="d-main-title">
+                    <h1 class="t-h1-inline">Danh sách gia sư môn toán</h1>
+                    <div class="t-yellow-under d-yellow">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-detail-teacher">
+            <div class="row d-detail-teacher1">
+                <div class="col-md-3 col-sm-4 col-xm-12 d-detail-teacher2">
+                    <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                    <p class="d-name">
+                        Ngọc Bích
+                    </p>
+                    <p class="d-name d-name-subject">
+                        Toán, Tiếng Anh, Ngữ văn
+                    </p>
+                    <p class="d-name d-name-address">
+                        <img src="../asset/images/pin 1.png" alt="">
+                        Hà Nội
+                    </p>
+                    <p class="d-name d-vnd">
+                        130.000vnđ/giờ
+                    </p>
+                    <div class="d-name-invited">
+                        <div class="d-invited">
+                            <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                    src="../asset/images/send 1.png" alt="">
+                                Mời dạy</a>
+                        </div>
+                        <div class="d-invited-p">
+                            <p class="d-name d-save"><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-detail-teacher1">
+                <div class="col-md-3 col-sm-4 col-xm-12 d-detail-teacher2">
+                    <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                    <p class="d-name">
+                        Ngọc Bích
+                    </p>
+                    <p class="d-name d-name-subject">
+                        Toán, Tiếng Anh, Ngữ văn
+                    </p>
+                    <p class="d-name d-name-address">
+                        <img src="../asset/images/pin 1.png" alt="">
+                        Hà Nội
+                    </p>
+                    <p class="d-name d-vnd">
+                        130.000vnđ/giờ
+                    </p>
+                    <div class="d-name-invited">
+                        <div class="d-invited">
+                            <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                    src="../asset/images/send 1.png" alt="">
+                                Mời dạy</a>
+                        </div>
+                        <div class="d-invited-p">
+                            <p class="d-name d-save"><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-detail-teacher1">
+                <div class="col-md-3 col-sm-4 col-xm-12 d-detail-teacher2">
+                    <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                    <p class="d-name">
+                        Ngọc Bích
+                    </p>
+                    <p class="d-name d-name-subject">
+                        Toán, Tiếng Anh, Ngữ văn
+                    </p>
+                    <p class="d-name d-name-address">
+                        <img src="../asset/images/pin 1.png" alt="">
+                        Hà Nội
+                    </p>
+                    <p class="d-name d-vnd">
+                        130.000vnđ/giờ
+                    </p>
+                    <div class="d-name-invited">
+                        <div class="d-invited">
+                            <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                    src="../asset/images/send 1.png" alt="">
+                                Mời dạy</a>
+                        </div>
+                        <div class="d-invited-p">
+                            <p class="d-name d-save"><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-detail-teacher1">
+                <div class="col-md-3 col-sm-4 col-xm-12 d-detail-teacher2">
+                    <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                    <p class="d-name">
+                        Ngọc Bích
+                    </p>
+                    <p class="d-name d-name-subject">
+                        Toán, Tiếng Anh, Ngữ văn
+                    </p>
+                    <p class="d-name d-name-address">
+                        <img src="../asset/images/pin 1.png" alt="">
+                        Hà Nội
+                    </p>
+                    <p class="d-name d-vnd">
+                        130.000vnđ/giờ
+                    </p>
+                    <div class="d-name-invited">
+                        <div class="d-invited">
+                            <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                    src="../asset/images/send 1.png" alt="">
+                                Mời dạy</a>
+                        </div>
+                        <button class="d-invited-p">
+                            <p class="d-name d-save"><i class="fa fa-heart-o" aria-hidden="true"></i> Lưu</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-teacher2-v3">
+            <a href="https:fb.com/datdat0120">Xem thêm <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div>
+        <div class="d-main-subject">
+            <div class="d-main-title">
+                <h1 class="t-h1-inline">Từ khóa liên quan</h1>
+                <div class="t-yellow-under d-yellow-key">
+
+                </div>
+            </div>
+            <div class="d-detail-teacher-key">
+                <div class="d-class-detail-keyword">
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                    <div class="d-teacher-key col-md-2 col-sm-4 col-xs-6">
+                        <a href="#" class="d-name d-name-key">Gia sư môn toán lớp 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-banner">
+            <div class="d-banner-v1">
+                <div class="d-banner-v1s">
+                    <img src="../asset/images/Tìm gia sư công nghệ 4.0.png" alt="" class="d-banner-img">
+                    <p class="d-banner-p d-banner-p1">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Gia sư chất lượng
+                    </p>
+                    <p class="d-banner-p d-banner-p2">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Lựa chọn đa dạng
+                    </p>
+                    <p class="d-banner-p d-banner-p2">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        Kết nối gia sư nhanh chóng
+                    </p>
+                    <div class="d-banner-search">
+                        <a href="#" class="d-banner-a">
+                            Tìm gia sư ngay
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-banner-v2">
+                <div class="d-banner-v2s">
+                    <img src="../asset/images/Tìm gia sư giỏi.png" alt="" class="d-banner-img1">
+                    <p class="d-banner-p d-banner-p3">
+                        Tiếp cận với những gia sư giỏi nhất một cách vô cùng
+                        dễ dàng.
+                    </p>
+
+                    <div class="d-banner-search2">
+                        <a href="#" class="d-banner-a d-banner-a2">
+                            Đăng tin tìm gia sư
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-login">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-detail">
+                <div class="modal-header modal-header-detail">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">
+                        <div id="content-h4" style="text-align:center; color:#FFFFFF">Đăng nhập để mời dạy</div>
+                    </h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="" method="POST" role="form" class="modal-form-detail">
+                        <div class="form-group form-parent-detail">
+                            <i class="fa fa-phone icon-input-detail" aria-hidden="true"></i>
+                            <input type="text" class="form-control input-detail" id="" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="form-group form-parent-detail">
+                            <i class="fa fa-unlock-alt icon-input-detail1" aria-hidden="true"></i>
+                            <input type="text" class="form-control input-detail" id="" placeholder="**********">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer modal-footer1 modal-footer-login">
+                    <a href="#" class="btn-forget-pw blue">Quên mật khẩu?</a>
+                    <a href="teacherdetail.php" class="btn-login modal-footer-login1 d-click-login">Đăng nhập</a>
+                    <span class="sp-register">Bạn chưa có tài khoản? <a href="#" class="btn-register">ĐĂNG KÝ
+                            NGAY</a></span>
                 </div>
             </div>
         </div>
