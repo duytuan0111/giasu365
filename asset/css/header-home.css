@@ -80,12 +80,14 @@
   margin-left: 0;
 }
 .d-input-search,
-.d-select-search {
+.d-select-search,
+.d-input-search-city {
   width: 67%;
   height: auto;
   display: flex;
   position: absolute;
   background-color: #FFFFFF;
+  z-index: 100;
 }
 /* == tablet header-home === */
 @media only screen and (max-width: 1024px) {

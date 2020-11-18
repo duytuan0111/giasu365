@@ -23,6 +23,20 @@
   src: url("../font/UTM Aristote.ttf");
 }
 
+@font-face {
+  font-family: UTM Cookies;
+  src: url("../font/utm-cookies.ttf");
+}
+
+@font-face {
+  font-family: UTM Showcard;
+  src: url("../font/UTM Showcard.ttf");
+}
+
+@font-face {
+  font-family: UTM Aptima;
+  src: url("../font/UTM Aptima.ttf");
+}
 * {
   box-sizing: border-box;
 }
@@ -6954,7 +6968,7 @@ li a {
   height: auto;
 }
 .parent-detail-01 {
-  padding: 14px 145px 38px 145px;
+  padding: 14px 130px 38px 130px;
 }
 .parent-detail1 {
   width: 100%;
@@ -7988,7 +8002,7 @@ li a {
   color: #185da0;
 }
 .d-class-catelog-banner {
-  padding: 0 145px 94px 145px;
+  padding: 0 130px 94px 130px;
 }
 .d-class-catelog1 {
   background-image: url("../images/Group 2604.png");
@@ -8675,7 +8689,7 @@ li a {
 /* ==== tìm gia sư theo môn ==== */
 .d-main-subject{
   width: 100%;
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 .d-main-title{
@@ -9041,3 +9055,469 @@ li a {
     font-size: 13px;
   }
 }
+/* ==end== */
+/* == tìm kiếm gia sư == */
+.d-yellow-search-page{
+  width: 289px;
+  left: 13px;
+}
+.d-yellow-search-page2{
+  left: 14px;
+  width: 240px;
+}
+.d-yellow-search-page3{
+  left: 14px;
+  width: 211px;
+}
+.d-yellow-search-page4{
+  left: 14px;
+  width: 237px;
+}
+.d-yellow-search-page5{
+  left: 14px;
+  width: 186px;
+}
+.d-select-search-page{
+  width: 328px;
+  height: 43px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #F8971C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  display: block;
+  margin: 24px auto 0 auto ;
+}
+.d-top-news{
+  float: left;
+  width: 164px;
+  height: 43px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: UTM Avo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #F8971C;
+  margin: 0;
+}
+.d-top-news.active{
+  background-color:  #F8971C;
+  color: #FFFFFF;
+}
+.d-views{
+  width: 162px;
+  height: 43px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: UTM Avo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.03em;  
+  color: #F8971C;
+  margin: 0;
+  display: inline-block;
+}
+.d-views:hover{
+  background-color: #F8971C;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.d-views:active{
+  background-color: #F8971C;
+  color: #FFFFFF;
+}
+.tab-content{
+  margin: 43px 0 0 0;
+}
+.tab-content-top-news{
+  box-sizing: border-box;
+  border: 0.5px solid #E1E1E1;
+  display: flex;
+  width: 50%;
+  float: left;
+}
+.d-background-gray{
+  background: #F8F8F8;
+}
+.d-padding-search{
+  padding: 0 145px;
+}
+.d-list{
+  width: 35%;
+}
+.d-img-search{
+  width: 88px;
+  height: 88px;
+  margin: 20px 37px 21px 21px;
+}
+.d-vnd-search{
+  float: left;
+  margin-right: 18px;
+}
+.d-name-search{
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+}
+.d-heart{
+  width: 39%;
+  text-align: end;  
+}
+.heart{
+  position: relative;
+  line-height: 60px;
+  display: inline-block;
+  transition: color 0.2s ease;
+  color: #ebebeb;
+}
+.heart:before {
+  content: '\2764';
+  width: 10px;
+  height: 10px;
+  font-size: 30px;
+}
+
+.heart:hover,
+.heart.selected,
+.heart:hover ~ .heart,
+.heart.selected ~ .heart{
+  transition: color 0.8s ease;
+  color: blue;
+}
+.d-banner-search-page{
+  background-image: url("../images/Group 2882.png");
+  background-repeat: no-repeat;
+  background-size:1224px 286px;
+  width: 1224px;
+  height: 286px;
+  margin-top: 74px;
+  margin-left: 147px;
+}
+.d-banner-search-img{
+  margin-top: 55px;
+  margin-left: 155px;
+} 
+.d-signin{
+  width: 22%;
+  height: 51px;
+  margin: 31px auto 0 auto;
+  background: #F8971C;
+  border: 1.5px solid rgba(255, 255, 255, 0.77);
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+}
+.d-signin-teacher{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 47px;
+  color: #FFFFFF;
+}
+/* === tablet tìm kiếm chung === */
+@media only screen and (max-width: 1024px){
+  .d-padding-search {
+    padding: 0 26px;
+  }
+  .d-img-search {
+    width: 67px;
+    height: 67px;
+    margin: 16px 31px 17px 21px;
+  }
+  .tab-content-top-news{
+    width: 100%;
+    float: none;
+  }
+  .d-list {
+    width: 56%;
+  }
+  .d-heart {
+    width: 25%;
+  }
+  .d-banner-search-page {
+    background-image: url("../images/Group 2853.png");
+    background-repeat: no-repeat;
+    background-size: 768px 442px;
+    width: 768px;
+    height: 442px;
+    margin-top: 45px;
+    margin-left: 0;
+  }
+  .d-banner-search-img {
+    margin-top: 55px;
+    margin-left: 55px;
+  }
+  .tab-content {
+    margin: 45px 0 0 0;
+  }
+  .d-signin {
+    width: 37%;
+    margin: 33px auto 0 55px;
+  }
+  .d-left{
+    float: left;
+  }
+  .d-vnd-search {
+    margin-right: 22px;
+    margin-left: 20px;
+  }
+}
+/* === end tablet === */
+/* == mobile tìm gia sư == */
+@media only screen and (max-width: 480px){
+  .d-yellow-search-page {
+    width: 263px;
+  }
+  .d-yellow-search-page2 {
+    width: 202px;
+  }
+  .d-yellow-search-page3 {
+    width: 191px;
+  }
+  .d-yellow-search-page4 {
+    width: 215px;
+  }
+  .d-yellow-search-page5 {
+    width: 167px;
+  }
+  .d-padding-search {
+    padding: 0;
+  }
+  .d-img-search {
+    width: 70px;
+    height: 70px;
+    margin: 30px 20px 29px 13px;
+  }
+  .d-vnd-search {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .d-heart {
+    width: 13%;
+  }
+  .d-left {
+    float: none;
+  }
+  .d-banner-search-page {
+    background-size: 375px 237px;
+    width: 375px;
+    height: 237px;
+    margin-top: 33px;
+  }
+  .d-banner-search-img {
+    margin-top: 34px;
+    margin-left: 12px;
+    width: 348px;
+  }
+  .d-signin {
+    width: 50%;
+    margin: 20px auto 0 12px;
+    height: 36px;
+  }
+  .d-signin-teacher {
+    font-size: 13px;
+    line-height: 32px;
+  }
+}
+/* === end tìm kiếm chung === */
+/* === việc làm gia sư theo môn === */
+.d-banner-teacher-detail{
+  padding-left: 131px;
+}
+.d-banner-teacher{
+  background-image: url("../images/Frame 3.png");
+  background-repeat: no-repeat;
+  background-size: 596px 230px;
+  width: 596px;
+  height: 230px;
+}
+.d-banner-teacher-p{
+  font-family: UTM Aptima;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 60px;
+  margin-bottom: 0;
+}
+.d-banner-teacher-p1{
+  margin-top: 8px;
+}
+.d-banner-teacher-p2{
+ margin-top: 8px;
+}
+.d-banner-teacher-p3{
+  margin-top: 8px;
+}
+.d-banner-img-v1{
+  display: none;
+}
+.d-banner-teacher-v1{
+  width: 65%;
+  height: 40px;
+  background: #F8971C;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  text-align: center;
+  margin: 21px auto 0 auto;
+}
+.d-banner-teacher-a{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.d-banner-teacher2{
+  background-image: url("../images/Group 2884.png");
+  background-repeat: no-repeat;
+  background-size: 596px 230px;
+  width: 596px;
+  height: 230px;
+  margin-left: 37px;
+}
+.d-banner--teacher{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: UTM Cookies;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.d-banner-teacher-p4{
+  font-weight: 600;
+  margin-left: 32px;
+  width: 317px;
+  text-align: center;
+}
+.d-banner-teacher-v2{
+  width: 32%;
+  background: #F8971C;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  text-align: center;
+  margin: 25px auto 0 103px;
+}
+/* == tablet việc làm gia sư === */
+@media only screen and (max-width:1024px){
+  .d-banner-teacher-detail {
+    padding-left: 0;
+  }
+  .d-banner-teacher-1s{
+    margin-right: 30px;
+  }
+  .d-banner-teacher {
+    background-size: 735px 295px;
+    width: 735px;
+    height: 295px;
+  }
+  .d-banner-img {
+    width: 400px;
+    height: 38px;
+  }
+  .d-banner-teacher-v1 {
+    width: 55%;
+    margin: 40px auto 0 60px;
+  }
+  .d-banner-teacher2 {
+    background-size: 735px 295px;
+    width: 735px;
+    height: 295px;
+    margin-left: 0;
+    margin-top: 31px;
+  }
+  .d-banner--teacher {
+    font-size: 28px;
+  }
+  .d-banner-teacher-p4 {
+    margin-left: 64px;
+    margin-top: 34px;
+    font-size: 16px;
+  }
+  .d-banner-teacher-v2 {
+    width: 37%;
+    margin: 25px auto 0 140px;
+  }
+  .d-banner-teacher-a2{
+    font-size: 17px;
+  }
+}
+/* === end tablet việc làm gia sư=== */
+@media only screen and (max-width:480px){
+  .d-banner-teacher {
+    background-image: url("../images/Frame 31.png");
+    background-size: 375px 247px;
+    width: 375px;
+    height: 247px;
+  }
+  .d-banner-teacher-1s {
+    margin-right: 0px;
+  }
+  .d-banner-img{
+    display: none;
+  }
+  .d-banner-img-v1{
+    display: block;
+    margin: 7px 0 0 24px;
+  }
+  .d-banner-teacher-p {
+    font-size: 14px;
+  }
+  .d-banner-teacher-p1 {
+    margin-left: 40px;
+  }
+  .d-banner-teacher-p3 {
+    padding-left: 18px;
+  }
+  .d-banner-teacher2 {
+    background-size: 375px 247px;
+    width: 375px;
+    height: 247px;
+  }
+  .d-banner--teacher {
+    margin-top: 33px;
+    margin-left: 0;
+    font-size: 22px;
+    width: 220px;
+    line-height: 31px;
+  }
+  .d-banner-teacher-p4 {
+    margin-left: 0;
+    margin-top: 17px;
+    font-size: 14px;
+    width: 155px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .d-banner-teacher-v1 {
+    width: 92%;
+    margin: 25px auto 0 auto;
+  }
+  .d-banner-teacher-a {
+    font-size: 14px;
+  }
+  .d-banner-teacher-a2 {
+    font-size: 15px;
+  }
+  .d-banner-teacher-v2 {
+    width: 79%;
+    margin: 10px auto 0 0;
+  }
+}
+/* ư */

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh mục lớp học</title>
+    <title>Danh mục lớp học theo môn</title>
 
     <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
+
     <link rel="stylesheet" href="../asset/css/style.css">
     <link rel="stylesheet" href="../asset/css/header-home.css">
 
@@ -152,7 +152,7 @@
             </div>
             <div class="parent-detail4">
                 <div class="d-class-catelog">
-                    <p>Danh sách lớp học mới nhất</p>
+                    <p>Danh sách lớp môn toán</p>
                 </div>
                 <div class="parent-detail4-v1">
                     <div class="parent-detail4-img">
@@ -260,47 +260,57 @@
                     <p>Việc làm cho gia sư</p>
                 </div>
                 <div class="d-class-detail-keyword">
-                    <div class="d-class-detail-key col-md-3 col-sm-4 col-xs-12">
+                    <div class="d-class-detail-key col-md-3 col-sm-5 col-xs-12">
                         <a href="#">Việc làm gia sư môn toán lớp 1</a>
                     </div>
-                    <div class="d-class-detail-key col-md-3 col-sm-4 col-xs-12">
+                    <div class="d-class-detail-key col-md-3 col-sm-5 col-xs-12">
                         <a>Việc làm gia sư môn toán lớp 1</a>
                     </div>
-                    <div class="d-class-detail-key col-md-3 col-sm-4 col-xs-12">
+                    <div class="d-class-detail-key col-md-3 col-sm-5 col-xs-12">
                         <a>Việc làm gia sư môn toán lớp 1</a>
                     </div>
-                    <div class="d-class-detail-key col-md-3 col-sm-4 col-xs-12">
+                    <div class="d-class-detail-key col-md-3 col-sm-5 col-xs-12">
                         <a>Việc làm gia sư môn toán lớp 1</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="d-class-catelog-banner">
-            <div class="d-class-catelog1">
-                <div class="d-class-catelog-img">
-                    <div class="d-catelog1-img">
-                        <img src="../asset/images/Rectangle 556.png" alt="">
-                    </div>
-                    <div class="d-catelog1-img1">
-                        <img src="../asset/images/Rectangle 557.png" alt="">
+        <div class="d-banner d-banner-teacher-detail">
+            <div class="d-banner-teacher">
+                <div class="d-banner-v1s d-banner-teacher-1s">
+                    <img src="../asset/images/đăng ký làm gia sư ngay hôm nay.png" alt="" class="d-banner-img">
+                    <img src="../asset/images/đăng ký làm gia sư ngay hôm nay (1).png" alt="" class="d-banner-img-v1">
+                    <p class="d-banner-teacher-p d-banner-teacher-p1">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Chuyên nghiệp - uy tín
+                    </p>
+                    <p class="d-banner-teacher-p d-banner-teacher-p2">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Mức lương gia sư hấp dẫn
+                    </p>
+                    <p class="d-banner-teacher-p d-banner-teacher-p3">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Dễ dàng tìm lớp
+                    </p>
+                    <div class="d-banner-teacher-v1">
+                        <a href="#" class="d-banner-teacher-a">
+                            Đăng ký làm gia sư miễn phí
+                        </a>
                     </div>
                 </div>
-                <div class="d-catelog1-signin">
-                    <div class="d-catelog1-signin-img">
-                        <img src="../asset/images/Tìm việc làm gia sư.png" alt="">
+            </div>
+            <div class="d-banner-teacher2">
+                <div class="d-banner-v2s">
+                    <p class="d-banner--teacher">Một click nhanh - có ngay lớp dạy</p>
+                    <p class="d-banner-teacher-a d-banner-teacher-p4">
+                        Tìm lớp gia sư nhanh chóng, có ngay cơ hội việc làm gia sư
+                    </p>
+
+                    <div class="d-banner-teacher-v2">
+                        <a href="#" class="d-banner-teacher-a d-banner-teacher-a2">
+                            Đăng tin tìm gia sư
+                        </a>
                     </div>
-                    <div class="d-catelog1-p">
-                        <p>Kết nối, lọc tìm kiếm - quản lý gia sư </p>
-                    </div>
-                    <div class="d-catelog1-signup">
-                        <a href="#">Đăng ký làm gia sư</a>
-                    </div>
-                    <div class="d-catelog-img2">
-                        <img src="../asset/images/Frame (1).png" alt="">
-                    </div>
-                </div>
-                <div class="d-catelog1-img2">
-                    <img src="../asset/images/Frame (1).png" alt="">
                 </div>
             </div>
         </div>
@@ -344,4 +354,5 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="../asset/js/header-home.js"></script>
+
 </html>

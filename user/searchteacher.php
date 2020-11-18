@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng tin tim gia sư</title>
+    <title>Đăng tin tìm gia sư</title>
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="../asset/css/style.css">
     <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
