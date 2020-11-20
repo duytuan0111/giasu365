@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../asset/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../asset/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../asset/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../asset/css/style.css">
     <link rel="stylesheet" href="../asset/css/header-home.css">
 </head>
 
@@ -168,23 +170,23 @@
                 <div class="row t-all-class">
                     <div class="col-md-6">
                         <div class="row t-class-body">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
                                 <img src="../asset/images/class_img.png" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-9 col-xs-8">
                                 <div class="row t-all-class-title">
                                     <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
+                                    <img src="../asset/images/heart_no_color.png" alt="" class="t-heart">
                                 </div>
                                 <div class="row t-all-class-main">
                                     <span class="t-all-class-fee">1300000 vnd/giờ</span>
                                     <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
                                 </div>
-                                <p class="t-all-class-main">
+                                <p class="t-all-class-main t-all-class-main-p">
                                     Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
                                     diên ra trong vòng 2...
                                 </p>
-                                <div class="row t-all-class-main">
+                                <div class="row t-all-class-main t-all-class-main-div">
                                     <span class="t-class-id">
                                         Mã lớp: 12345
                                     </span>
@@ -193,79 +195,28 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row t-class-body">
-                            <div class="col-md-4">
-                                <img src="../asset/images/class_img.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row t-all-class-title">
-                                    <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
-                                </div>
-                                <div class="row t-all-class-main">
-                                    <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
-                                </div>
-                                <p class="t-all-class-main">
-                                    Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
-                                    diên ra trong vòng 2...
-                                </p>
-                                <div class="row t-all-class-main">
-                                    <span class="t-class-id">
-                                        Mã lớp: 12345
-                                    </span>
-                                    <a href="" title="">Gặp mặt</a>
-                                    <a href="" title="">Đề nghị dạy: 3</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row t-class-body">
-                            <div class="col-md-4">
-                                <img src="../asset/images/class_img.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row t-all-class-title">
-                                    <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
-                                </div>
-                                <div class="row t-all-class-main">
-                                    <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
-                                </div>
-                                <p class="t-all-class-main">
-                                    Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
-                                    diên ra trong vòng 2...
-                                </p>
-                                <div class="row t-all-class-main">
-                                    <span class="t-class-id">
-                                        Mã lớp: 12345
-                                    </span>
-                                    <a href="" title="">Gặp mặt</a>
-                                    <a href="" title="">Đề nghị dạy: 3</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="col-md-6">
                         <div class="row t-class-body">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
                                 <img src="../asset/images/class_img.png" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-9 col-xs-8">
                                 <div class="row t-all-class-title">
                                     <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
+                                    <img src="../asset/images/heart_no_color.png" alt="" class="t-heart">
                                 </div>
                                 <div class="row t-all-class-main">
                                     <span class="t-all-class-fee">1300000 vnd/giờ</span>
                                     <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
                                 </div>
-                                <p class="t-all-class-main">
+                                <p class="t-all-class-main t-all-class-main-p">
                                     Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
                                     diên ra trong vòng 2...
                                 </p>
-                                <div class="row t-all-class-main">
+                                <div class="row t-all-class-main t-all-class-main-div">
                                     <span class="t-class-id">
                                         Mã lớp: 12345
                                     </span>
@@ -274,58 +225,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row t-class-body">
-                            <div class="col-md-4">
-                                <img src="../asset/images/class_img.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row t-all-class-title">
-                                    <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
-                                </div>
-                                <div class="row t-all-class-main">
-                                    <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
-                                </div>
-                                <p class="t-all-class-main">
-                                    Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
-                                    diên ra trong vòng 2...
-                                </p>
-                                <div class="row t-all-class-main">
-                                    <span class="t-class-id">
-                                        Mã lớp: 12345
-                                    </span>
-                                    <a href="" title="">Gặp mặt</a>
-                                    <a href="" title="">Đề nghị dạy: 3</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row t-class-body">
-                            <div class="col-md-4">
-                                <img src="../asset/images/class_img.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row t-all-class-title">
-                                    <h3 class="t-class-h3-inline">Gia sư Tiếng Anh, toán, Tiếng việt, Địa...</h3>
-                                    <img src="../asset/images/heart_no_color.png" alt="">
-                                </div>
-                                <div class="row t-all-class-main">
-                                    <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
-                                </div>
-                                <p class="t-all-class-main">
-                                    Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
-                                    diên ra trong vòng 2...
-                                </p>
-                                <div class="row t-all-class-main">
-                                    <span class="t-class-id">
-                                        Mã lớp: 12345
-                                    </span>
-                                    <a href="" title="">Gặp mặt</a>
-                                    <a href="" title="">Đề nghị dạy: 3</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div>
@@ -334,18 +234,867 @@
                 <div class="t-main-title">
                     <img src="../asset/images/gia_su_tl.png" alt="">
                     <h1 class="t-h1-inline">Gia sư đang tìm lớp</h1>
-                    <div class="t-yellow-under">
+                    <div class="t-yellow-under yellow-under">
 
                     </div>
                 </div>
-                <div class="row t-class-slide">
+
+                <div class="d-class-slide1">
+                    <div class="row t-class-slide">
+                       
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited d-class--homea">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p d-class--homeb">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-detail-teacher1">
+                            <div class="d-detail-teacher2">
+                                <img src="../asset/images/B.jpg" alt="" class="d-detail-teacher-img">
+                                <p class="d-name">
+                                    Ngọc Bích
+                                </p>
+                                <p class="d-name d-name-subject">
+                                    Toán, Tiếng Anh, Ngữ văn
+                                </p>
+                                <p class="d-name d-name-address">
+                                    <img src="../asset/images/pin 1.png" alt="">
+                                    Hà Nội
+                                </p>
+                                <p class="d-name d-vnd">
+                                    130.000vnđ/giờ
+                                </p>
+                                <div class="d-name-invited">
+                                    <div class="d-invited">
+                                        <a data-toggle="modal" href='#modal-login' class="d-name d-invited-a"><img
+                                                src="../asset/images/send 1.png" alt="">
+                                            Mời dạy</a>
+                                    </div>
+                                    <div class="d-invited-p">
+                                        <p class="d-name d-save"><i class="fa fa-heart" aria-hidden="true"></i> Lưu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-popover" style="display:none">
+                                <div class="d-popover-padding">
+                                    <p class="d-popover-name">Ngọc Bích</p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/book (4) 1.png" alt="">
+                                        Toán, tiếng Anh, Ngữ văn
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/student (2) 1.png" alt="">
+                                        Trình độ: <span class="blue">Đại học </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/work 1.png" alt="">
+                                        Kinh nghiệm: <span class="blue">3 năm </span>
+                                    </p>
+                                    <p class="d-popover-subject">
+                                        <img src="../asset/images/Group (8).png" alt="">
+                                        Lịch dạy:
+                                    </p>
+                                    <div class="row table-moblie d-popover-table" style="">
+                                        <div class="col-md-2 col-xs-2 table-left">
+                                            <p>Sáng</p>
+                                            <p>Chiều</p>
+                                            <p>Tối</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-10 table-right">
+                                            <div class="table">
+                                                <table class="table" id="table-teach-mobile">
+                                                    <thead>
+                                                        <tr>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T2</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T3</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T4</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T5</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T6</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">T7</a></td>
+                                                            <td class="text-center td-mobile d-popover-td"><a href="#" class="d-popover-td-a">CN</a></td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="d-popover-detail">
+                                        Tốt nghiệp trường Đại học sư phạm Hà Nội, khoa giáo dục Tiếng Anh. Có kinh nghiệm ôn luyện thi đại học trên 3 năm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="t-see-all d-see-all">Xem tất cả lớp học <i class="fas fa-long-arrow-alt-right"></i></h3>
+                </div>
+                <div class="d-relate">
+                    <div class="d-class-relate col-md-4 col-sm-4 col-xs-6">
+                        <p class="d-relate-p">Tiếng Anh online 1 kèm 1</p>
+                    </div>
+                    <div class="d-class-relate col-md-4 col-sm-4 col-xs-6">
+                        <p class="d-relate-p">Gia sư môn toán</p>
+                    </div>
+                    <div class="d-class-relate col-md-4 col-sm-4 col-xs-6">
+                        <p class="d-relate-p">Gia sư</p>
+                    </div>
                 </div>
             </div>
         </main>
-
         
+        <div class="row d-banner-home">
+            <div class="d-banner-center">
+                <p class="d-banner-home-content">
+                    Tìm gia sư theo công nghệ 4.0
+                </p>
+                <p class="d-banner-home-content1">
+                    Cùng bạn hướng nghiệp - Mở rộng tương lai
+                </p>
+                <div class="d-banner-home-click">
+                    <p class="d-banner-home-click-p">
+                        Tìm gia sư ngay
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-class-home">
+            <img src="../asset/images/Frame (2).png" alt="" class="d-class-home-img">
+            <div class="d-class-home-v1">
+                <div class="d-class-home-catelog">
+                    <img src="../asset/images/time 1.png" alt="" class="d-home-catelog-img">
+                    <div>
+                        <p class="d-home-catelog-p">Tìm gia sư nhanh chóng</p>
+                        <p class="d-home-catelog-p2">Đăng tìm gia sư nhanh chóng</p>
+                        <p class="d-home-catelog-p2">Kết nối học viên với hàng nghìn gia sư khắp cả nước</p>
+                    </div>
+                </div>
+                <div class="d-class-home-catelog d-class-home-margin">
+                    <img src="../asset/images/win 1.png" alt="" class="d-home-catelog-img">
+                    <div>
+                        <p class="d-home-catelog-p">Lựa chọn đa dạng</p>
+                        <p class="d-home-catelog-p2">Chọn lọc những gia sư có trình độ cao từ các trường đại học tốt nhất</p>
+                        <p class="d-home-catelog-p2">Tìm kiếm tất gia sư phù hợp với từng môn học, địa điểm phù hợp vói bạn.</p>
+                    </div>
+                </div>
+                <div class="d-class-home-catelog d-class-home-margin">
+                    <img src="../asset/images/book (2) 1.png" alt="" class="d-home-catelog-img">
+                    <div>
+                        <p class="d-home-catelog-p">Linh hoạt lịch học</p>
+                        <p class="d-home-catelog-p2">Lịch học linh hoạt, tùy chỉnh dễ dàng</p>
+                        <p class="d-home-catelog-p2">Nhiều gia sư đặt giá mức học phí, bạn chỉ cần lựa chọn học phí phù hợp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-home-number">
+            <div class="d-home-number1">
+                <p class="d-home-data">
+                    11,500 +
+                </p>
+                <p class="d-home-data1">
+                    Lượt đăng ký làm gia sư
+                </p>
+            </div>
+            <div class="d-home-number2">
+                <p class="d-home-data">
+                    11,500 +
+                </p>
+                <p class="d-home-data1">
+                    Lớp đang tìm gia sư
+                </p>
+            </div>
+            <div class="d-home-number3">
+                <p class="d-home-data">
+                    11,500 +
+                </p>
+                <p class="d-home-data1">
+                    Tìm gia sư thành công
+                </p>
+            </div>
+        </div>
+        <div class="d-home-share-parent">
+            <div class="d-home-share-parent1">
+                <img src="../asset/images/B.jpg" alt="" class="d-share-parent-img">
+                <p class="d-share-parent-p">Ngọc Bích</p>
+                <p class="d-share-parent-p2">
+                    “Mình rất hài lòng với gia sư của Timviec365.com. Điểm số con mình được cải thiện rõ rệt”
+                </p>
+            </div>
+            <div class="d-home-share-parent2">
+                <img src="../asset/images/B.jpg" alt="" class="d-share-parent-img">
+                <p class="d-share-parent-p">Ngọc Bích</p>
+                <p class="d-share-parent-p2">
+                    “Mình rất hài lòng với gia sư của Timviec365.com. Điểm số con mình được cải thiện rõ rệt”
+                </p>
+            </div>
+            <div class="d-home-share-parent3">
+                <img src="../asset/images/B.jpg" alt="" class="d-share-parent-img">
+                <p class="d-share-parent-p">Ngọc Bích</p>
+                <p class="d-share-parent-p2">
+                    “Mình rất hài lòng với gia sư của Timviec365.com. Điểm số con mình được cải thiện rõ rệt”
+                </p>
+            </div>
+        </div>
+    </div>    
+    <div class="modal fade" id="modal-login">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-detail">
+                <div class="modal-header modal-header-detail">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">
+                        <div id="content-h4" style="text-align:center; color:#FFFFFF">Đăng nhập để mời dạy</div>
+                    </h4>
+                </div>
+                <div class="modal-body">
 
+                    <form action="" method="POST" role="form" class="modal-form-detail">
+                        <div class="form-group form-parent-detail">
+                            <i class="fa fa-phone icon-input-detail" aria-hidden="true"></i>
+                            <input type="text" class="form-control input-detail" id="" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="form-group form-parent-detail">
+                            <i class="fa fa-unlock-alt icon-input-detail1" aria-hidden="true"></i>
+                            <input type="text" class="form-control input-detail" id="" placeholder="**********">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer modal-footer1 modal-footer-login">
+                    <a href="#" class="btn-forget-pw blue">Quên mật khẩu?</a>
+                    <a href="teacherdetail.php" class="btn-login modal-footer-login1 d-click-login">Đăng nhập</a>
+                    <span class="sp-register">Bạn chưa có tài khoản? <a href="#" class="btn-register">ĐĂNG KÝ
+                            NGAY</a></span>
+                </div>
+            </div>
+        </div>
     </div>
+    <?php include_once "../inc_footer.php"; ?>
 </body>
 
 <script src="https://code.jquery.com/jquery.js"></script>
@@ -356,5 +1105,49 @@
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 <script src="../asset/js/header-home.js"></script>
+<script src="../asset/js/slick.min.js"></script>
+<script class="script">
+$(document).ready(function() {
+    $('[data-toggle="popover"]').popover();
+});
+$('.t-class-slide').slick({
+    infinite: true,
+    arrows: true,
+    autoarrows: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: '<div class="d-class-slide-prev"><i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i></div>',
+    nextArrow: '<div class="d-class-slide-next"><i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i></div>',
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                infinite: true,
+                arrows: true,
+                draggable: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                // autoplay: 5000,
+                prevArrow: '<div class="d-class-slide-prev"><i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="d-class-slide-next"><i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i></div>',
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                infinite: true,
+                arrows: true,
+                draggable: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                // autoplay:5000,
+                prevArrow: '<div class="d-class-slide-prev"><i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="d-class-slide-next"><i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i></div>',
+            }
+        }
+    ]
+});
+</script>
+<script>
+</script>
 
 </html>

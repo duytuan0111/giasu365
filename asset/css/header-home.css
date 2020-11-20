@@ -69,7 +69,6 @@
   border: 0.2px solid #eaeaea;
   box-sizing: border-box;
   border-radius: 5px;
-  margin-left: 78px;
   margin-top: 4px;
   display: none;
 }
@@ -82,7 +81,7 @@
 .d-input-search,
 .d-select-search,
 .d-input-search-city {
-  width: 67%;
+  width: 75%;
   height: auto;
   display: flex;
   position: absolute;
