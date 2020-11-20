@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="row t-all-class-main">
                                     <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
+                                    <span class="t-span-city"><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
                                 </div>
                                 <p class="t-all-class-main t-all-class-main-p">
                                     Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="row t-all-class-main">
                                     <span class="t-all-class-fee">1300000 vnd/giờ</span>
-                                    <span><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
+                                    <span class="t-span-city"><img src="../asset/images/pin 1.png" alt="">Hồ Chí Minh</span>
                                 </div>
                                 <p class="t-all-class-main t-all-class-main-p">
                                     Dạy học tiếng hàn theo các cấp từ cơ bản - sơ cấp đến trung cấp - cao cấp khóa học

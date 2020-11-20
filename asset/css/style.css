@@ -1306,6 +1306,23 @@ li a {
   text-align: center;
   color: #185DA0;
 }
+.t-all-class-main-p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #747474;
+}
+.t-span-city{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #1F2F3E;
+}
 .t-all-class-fee {
   margin-right: 18px;
   font-family: Roboto;
@@ -1318,7 +1335,7 @@ li a {
   color: #ff5c00;
 }
 .t-class-id {
-  margin-right: 40px;
+  margin-right: 38px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -1762,14 +1779,15 @@ li a {
     margin: 0;
   }
   
-.t-all-class-main a {
-  font-size: 14px;
-  line-height: 16px;
-}
+  .t-all-class-main a {
+    font-size: 14px;
+    line-height: 16px;
+  }
   .t-all-class-fee {
     margin-right: 96px;
   }
   .t-all-class-main-p{
+    font-size: 14px;
     position: absolute;
     padding-top: 44px;
     margin-left: -115px !important;
